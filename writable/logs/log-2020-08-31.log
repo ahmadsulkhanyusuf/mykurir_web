@@ -1,0 +1,305 @@
+CRITICAL - 2020-08-31 03:11:22 --> Call to undefined method App\Controllers\Admin\Home::form()
+#0 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Home->add()
+#1 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+#2 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp7\htdocs\ci4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-08-31 03:27:41 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('admin/home/add')
+#1 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('admin/home/add')
+#2 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\ci4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-31 03:27:42 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('admin/home/add')
+#1 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('admin/home/add')
+#2 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\ci4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-31 03:28:02 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('admin/home/add')
+#1 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('admin/home/add')
+#2 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\ci4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-31 03:28:02 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('admin/home/add')
+#1 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('admin/home/add')
+#2 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\ci4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-31 03:28:10 --> Undefined variable: id
+#0 D:\xampp7\htdocs\ci4template\app\Controllers\Admin\Home.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 115, Array)
+#1 D:\xampp7\htdocs\ci4template\app\Controllers\Admin\Home.php(106): App\Controllers\Admin\Home->form()
+#2 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Home->add()
+#3 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+#4 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\ci4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-31 03:28:27 --> Call to undefined function App\Controllers\Admin\set_attribute_form()
+#0 D:\xampp7\htdocs\ci4template\app\Controllers\Admin\Home.php(106): App\Controllers\Admin\Home->form()
+#1 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Home->add()
+#2 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+#3 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\ci4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-31 03:28:42 --> Undefined variable: data
+#0 D:\xampp7\htdocs\ci4template\app\Controllers\Admin\Home.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 121, Array)
+#1 D:\xampp7\htdocs\ci4template\app\Controllers\Admin\Home.php(106): App\Controllers\Admin\Home->form()
+#2 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Home->add()
+#3 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+#4 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\ci4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-31 03:29:00 --> Undefined property: App\Controllers\Admin\Home::$db
+#0 D:\xampp7\htdocs\ci4template\app\Controllers\Admin\Home.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp7\\htdoc...', 116, Array)
+#1 D:\xampp7\htdocs\ci4template\app\Controllers\Admin\Home.php(106): App\Controllers\Admin\Home->form()
+#2 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Home->add()
+#3 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+#4 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\ci4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-31 03:29:00 --> Undefined property: App\Controllers\Admin\Home::$db
+#0 D:\xampp7\htdocs\ci4template\app\Controllers\Admin\Home.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp7\\htdoc...', 116, Array)
+#1 D:\xampp7\htdocs\ci4template\app\Controllers\Admin\Home.php(106): App\Controllers\Admin\Home->form()
+#2 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Home->add()
+#3 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+#4 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\ci4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-31 03:29:20 --> Undefined property: App\Controllers\Admin\Home::$db
+#0 D:\xampp7\htdocs\ci4template\app\Controllers\Admin\Home.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp7\\htdoc...', 116, Array)
+#1 D:\xampp7\htdocs\ci4template\app\Controllers\Admin\Home.php(106): App\Controllers\Admin\Home->form()
+#2 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Home->add()
+#3 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+#4 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\ci4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-31 03:29:21 --> Undefined property: App\Controllers\Admin\Home::$db
+#0 D:\xampp7\htdocs\ci4template\app\Controllers\Admin\Home.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp7\\htdoc...', 116, Array)
+#1 D:\xampp7\htdocs\ci4template\app\Controllers\Admin\Home.php(106): App\Controllers\Admin\Home->form()
+#2 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Home->add()
+#3 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+#4 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\ci4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-31 03:33:39 --> Undefined variable: data
+#0 D:\xampp7\htdocs\ci4template\app\Controllers\Admin\Home.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 121, Array)
+#1 D:\xampp7\htdocs\ci4template\app\Controllers\Admin\Home.php(106): App\Controllers\Admin\Home->form()
+#2 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Home->add()
+#3 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+#4 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\ci4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-31 03:34:12 --> Undefined variable: data
+#0 D:\xampp7\htdocs\ci4template\app\Controllers\Admin\Home.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 121, Array)
+#1 D:\xampp7\htdocs\ci4template\app\Controllers\Admin\Home.php(106): App\Controllers\Admin\Home->form()
+#2 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Home->add()
+#3 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+#4 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\ci4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-31 03:34:13 --> Undefined variable: data
+#0 D:\xampp7\htdocs\ci4template\app\Controllers\Admin\Home.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 121, Array)
+#1 D:\xampp7\htdocs\ci4template\app\Controllers\Admin\Home.php(106): App\Controllers\Admin\Home->form()
+#2 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Home->add()
+#3 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+#4 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\ci4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-31 03:34:33 --> Undefined variable: data
+#0 D:\xampp7\htdocs\ci4template\app\Controllers\Admin\Home.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 121, Array)
+#1 D:\xampp7\htdocs\ci4template\app\Controllers\Admin\Home.php(106): App\Controllers\Admin\Home->form()
+#2 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Home->add()
+#3 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+#4 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\ci4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-31 03:34:40 --> Undefined property: App\Controllers\Admin\Home::$db
+#0 D:\xampp7\htdocs\ci4template\app\Controllers\Admin\Home.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp7\\htdoc...', 116, Array)
+#1 D:\xampp7\htdocs\ci4template\app\Controllers\Admin\Home.php(106): App\Controllers\Admin\Home->form()
+#2 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Home->add()
+#3 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+#4 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\ci4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-31 03:34:59 --> Undefined index: kasir_label
+#0 D:\xampp7\htdocs\ci4template\app\Controllers\Admin\Home.php(124): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 124, Array)
+#1 D:\xampp7\htdocs\ci4template\app\Controllers\Admin\Home.php(106): App\Controllers\Admin\Home->form()
+#2 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Home->add()
+#3 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+#4 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\ci4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-31 03:35:01 --> Undefined index: kasir_label
+#0 D:\xampp7\htdocs\ci4template\app\Controllers\Admin\Home.php(124): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 124, Array)
+#1 D:\xampp7\htdocs\ci4template\app\Controllers\Admin\Home.php(106): App\Controllers\Admin\Home->form()
+#2 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Home->add()
+#3 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+#4 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\ci4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-31 03:42:21 --> Class 'Datasource' not found
+#0 D:\xampp7\htdocs\ci4template\app\Libraries\SmartComponent\Grid.php(88): App\Libraries\SmartComponent\Grid->get_datasource()
+#1 D:\xampp7\htdocs\ci4template\app\Controllers\Coba.php(70): App\Libraries\SmartComponent\Grid->output()
+#2 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Coba->grid()
+#3 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+#4 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\ci4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-31 03:42:23 --> Class 'Datasource' not found
+#0 D:\xampp7\htdocs\ci4template\app\Libraries\SmartComponent\Grid.php(88): App\Libraries\SmartComponent\Grid->get_datasource()
+#1 D:\xampp7\htdocs\ci4template\app\Controllers\Coba.php(70): App\Libraries\SmartComponent\Grid->output()
+#2 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Coba->grid()
+#3 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+#4 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\ci4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-31 03:42:31 --> Class 'Datasource' not found
+#0 D:\xampp7\htdocs\ci4template\app\Libraries\SmartComponent\Grid.php(88): App\Libraries\SmartComponent\Grid->get_datasource()
+#1 D:\xampp7\htdocs\ci4template\app\Controllers\Coba.php(70): App\Libraries\SmartComponent\Grid->output()
+#2 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Coba->grid()
+#3 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+#4 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\ci4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-31 03:42:41 --> Class 'Datasource' not found
+#0 D:\xampp7\htdocs\ci4template\app\Libraries\SmartComponent\Grid.php(88): App\Libraries\SmartComponent\Grid->get_datasource()
+#1 D:\xampp7\htdocs\ci4template\app\Controllers\Coba.php(70): App\Libraries\SmartComponent\Grid->output()
+#2 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Coba->grid()
+#3 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+#4 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\ci4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-31 03:42:46 --> Class 'Datasource' not found
+#0 D:\xampp7\htdocs\ci4template\app\Libraries\SmartComponent\Grid.php(88): App\Libraries\SmartComponent\Grid->get_datasource()
+#1 D:\xampp7\htdocs\ci4template\app\Controllers\Coba.php(70): App\Libraries\SmartComponent\Grid->output()
+#2 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Coba->grid()
+#3 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+#4 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\ci4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-31 03:42:49 --> Class 'Datasource' not found
+#0 D:\xampp7\htdocs\ci4template\app\Libraries\SmartComponent\Grid.php(88): App\Libraries\SmartComponent\Grid->get_datasource()
+#1 D:\xampp7\htdocs\ci4template\app\Controllers\Coba.php(70): App\Libraries\SmartComponent\Grid->output()
+#2 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Coba->grid()
+#3 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+#4 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\ci4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-31 03:43:43 --> Class 'Datasource' not found
+#0 D:\xampp7\htdocs\ci4template\app\Libraries\SmartComponent\Grid.php(88): App\Libraries\SmartComponent\Grid->get_datasource()
+#1 D:\xampp7\htdocs\ci4template\app\Controllers\Coba.php(70): App\Libraries\SmartComponent\Grid->output()
+#2 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Coba->grid()
+#3 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+#4 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\ci4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-31 03:44:04 --> syntax error, unexpected 'use' (T_USE)
+#0 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\xampp7\\htdoc...')
+#1 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\S...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\S...')
+#3 D:\xampp7\htdocs\ci4template\app\Controllers\Coba.php(22): spl_autoload_call('App\\Libraries\\S...')
+#4 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Coba->grid()
+#5 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+#6 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\ci4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-31 03:44:05 --> syntax error, unexpected 'use' (T_USE)
+#0 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\xampp7\\htdoc...')
+#1 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\S...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\S...')
+#3 D:\xampp7\htdocs\ci4template\app\Controllers\Coba.php(22): spl_autoload_call('App\\Libraries\\S...')
+#4 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Coba->grid()
+#5 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+#6 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\ci4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-31 03:44:11 --> Class 'Datasource' not found
+#0 D:\xampp7\htdocs\ci4template\app\Libraries\SmartComponent\Grid.php(88): App\Libraries\SmartComponent\Grid->get_datasource()
+#1 D:\xampp7\htdocs\ci4template\app\Controllers\Coba.php(70): App\Libraries\SmartComponent\Grid->output()
+#2 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Coba->grid()
+#3 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+#4 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\ci4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-31 03:44:12 --> Class 'Datasource' not found
+#0 D:\xampp7\htdocs\ci4template\app\Libraries\SmartComponent\Grid.php(88): App\Libraries\SmartComponent\Grid->get_datasource()
+#1 D:\xampp7\htdocs\ci4template\app\Controllers\Coba.php(70): App\Libraries\SmartComponent\Grid->output()
+#2 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Coba->grid()
+#3 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+#4 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\ci4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-31 03:44:28 --> Trying to get property 'load' of non-object
+#0 D:\xampp7\htdocs\ci4template\app\Libraries\SmartComponent\Datasource.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp7\\htdoc...', 53, Array)
+#1 D:\xampp7\htdocs\ci4template\app\Libraries\SmartComponent\Grid.php(119): App\Libraries\SmartComponent\Datasource->run()
+#2 D:\xampp7\htdocs\ci4template\app\Libraries\SmartComponent\Grid.php(88): App\Libraries\SmartComponent\Grid->get_datasource()
+#3 D:\xampp7\htdocs\ci4template\app\Controllers\Coba.php(70): App\Libraries\SmartComponent\Grid->output()
+#4 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Coba->grid()
+#5 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+#6 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\ci4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-31 03:44:29 --> Trying to get property 'load' of non-object
+#0 D:\xampp7\htdocs\ci4template\app\Libraries\SmartComponent\Datasource.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp7\\htdoc...', 53, Array)
+#1 D:\xampp7\htdocs\ci4template\app\Libraries\SmartComponent\Grid.php(119): App\Libraries\SmartComponent\Datasource->run()
+#2 D:\xampp7\htdocs\ci4template\app\Libraries\SmartComponent\Grid.php(88): App\Libraries\SmartComponent\Grid->get_datasource()
+#3 D:\xampp7\htdocs\ci4template\app\Controllers\Coba.php(70): App\Libraries\SmartComponent\Grid->output()
+#4 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Coba->grid()
+#5 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+#6 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\ci4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-31 03:45:01 --> Table 'antrian.kasir_log' doesn't exist
+#0 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('select *, kasir...')
+#1 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('select *, kasir...')
+#2 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('select *, kasir...')
+#3 D:\xampp7\htdocs\ci4template\app\Libraries\SmartComponent\Datasource.php(72): CodeIgniter\Database\BaseConnection->query('select *, kasir...')
+#4 D:\xampp7\htdocs\ci4template\app\Libraries\SmartComponent\Grid.php(119): App\Libraries\SmartComponent\Datasource->run()
+#5 D:\xampp7\htdocs\ci4template\app\Libraries\SmartComponent\Grid.php(88): App\Libraries\SmartComponent\Grid->get_datasource()
+#6 D:\xampp7\htdocs\ci4template\app\Controllers\Coba.php(70): App\Libraries\SmartComponent\Grid->output()
+#7 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Coba->grid()
+#8 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+#9 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp7\htdocs\ci4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-08-31 03:45:34 --> Table 'antrian.kasir_log' doesn't exist
+#0 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('select *, kasir...')
+#1 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('select *, kasir...')
+#2 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('select *, kasir...')
+#3 D:\xampp7\htdocs\ci4template\app\Libraries\SmartComponent\Datasource.php(72): CodeIgniter\Database\BaseConnection->query('select *, kasir...')
+#4 D:\xampp7\htdocs\ci4template\app\Libraries\SmartComponent\Grid.php(119): App\Libraries\SmartComponent\Datasource->run()
+#5 D:\xampp7\htdocs\ci4template\app\Libraries\SmartComponent\Grid.php(88): App\Libraries\SmartComponent\Grid->get_datasource()
+#6 D:\xampp7\htdocs\ci4template\app\Controllers\Coba.php(70): App\Libraries\SmartComponent\Grid->output()
+#7 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Coba->grid()
+#8 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+#9 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp7\htdocs\ci4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-08-31 03:45:41 --> Unknown column 'id' in 'order clause'
+#0 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('select true ord...')
+#1 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('select true ord...')
+#2 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('select true ord...')
+#3 D:\xampp7\htdocs\ci4template\app\Libraries\SmartComponent\Datasource.php(72): CodeIgniter\Database\BaseConnection->query('select true ord...')
+#4 D:\xampp7\htdocs\ci4template\app\Libraries\SmartComponent\Grid.php(119): App\Libraries\SmartComponent\Datasource->run()
+#5 D:\xampp7\htdocs\ci4template\app\Libraries\SmartComponent\Grid.php(88): App\Libraries\SmartComponent\Grid->get_datasource()
+#6 D:\xampp7\htdocs\ci4template\app\Controllers\Admin\Home.php(89): App\Libraries\SmartComponent\Grid->output()
+#7 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Home->grid()
+#8 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+#9 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp7\htdocs\ci4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-08-31 03:45:51 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result_array()
+#0 D:\xampp7\htdocs\ci4template\app\Libraries\SmartComponent\Grid.php(119): App\Libraries\SmartComponent\Datasource->run()
+#1 D:\xampp7\htdocs\ci4template\app\Libraries\SmartComponent\Grid.php(88): App\Libraries\SmartComponent\Grid->get_datasource()
+#2 D:\xampp7\htdocs\ci4template\app\Controllers\Admin\Home.php(89): App\Libraries\SmartComponent\Grid->output()
+#3 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Home->grid()
+#4 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+#5 D:\xampp7\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\ci4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

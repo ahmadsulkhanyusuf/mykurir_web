@@ -1,0 +1,114 @@
+CRITICAL - 2021-05-26 21:26:02 --> Undefined index: user_id
+#0 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(193): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 193, Array)
+#1 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(109): App\Controllers\Admin\Barang->form()
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->add()
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-26 21:28:08 --> Undefined index: user_id
+#0 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(193): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 193, Array)
+#1 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(109): App\Controllers\Admin\Barang->form()
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->add()
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-26 21:28:14 --> Undefined index: user_id
+#0 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(193): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 193, Array)
+#1 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(109): App\Controllers\Admin\Barang->form()
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->add()
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-26 21:30:33 --> Undefined index: user_id
+#0 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(194): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 194, Array)
+#1 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(109): App\Controllers\Admin\Barang->form()
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->add()
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-26 21:30:45 --> Undefined index: user_id
+#0 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(194): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 194, Array)
+#1 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(109): App\Controllers\Admin\Barang->form()
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->add()
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-26 21:40:19 --> Call to undefined method CodeIgniter\Database\Postgre\Builder::count()
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->genKode('1')
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-26 21:42:16 --> Call to undefined method CodeIgniter\Database\Postgre\Builder::count()
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->genKode('1')
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-26 21:44:30 --> Call to undefined method CodeIgniter\Database\Postgre\Builder::count()
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->genKode('1')
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-26 21:44:45 --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;*&quot;
+LINE 1: SELECT COUNT(*) AS *
+                           ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\xampp7\\htdoc...', 196, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #181, 'SELECT COUNT(*)...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('SELECT COUNT(*)...')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#5 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(235): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->genKode('1')
+#7 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-26 21:44:54 --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;*&quot;
+LINE 1: SELECT COUNT(*) AS *
+                           ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\xampp7\\htdoc...', 196, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #181, 'SELECT COUNT(*)...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('SELECT COUNT(*)...')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#5 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(235): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->genKode('1')
+#7 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-26 21:45:12 --> pg_query(): Query failed: ERROR:  invalid input syntax for type date: &quot;=&quot;
+LINE 3: WHERE &quot;bar_tgl&quot; = '='
+                          ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\xampp7\\htdoc...', 196, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #181, 'SELECT COUNT("i...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('SELECT COUNT("i...')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT("i...')
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT COUNT("i...', Array, false)
+#5 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(235): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->genKode('1')
+#7 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-26 21:47:05 --> pg_query(): Query failed: ERROR:  invalid input syntax for type date: &quot;=&quot;
+LINE 3: WHERE &quot;bar_tgl&quot; = '='
+                          ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\xampp7\\htdoc...', 196, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #181, 'SELECT COUNT(*)...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('SELECT COUNT(*)...')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#5 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(235): CodeIgniter\Database\BaseBuilder->countAllResults()
+#6 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->genKode('1')
+#7 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}

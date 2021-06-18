@@ -1,0 +1,38 @@
+/* default setting */
+
+body {
+    margin:0px;
+   }
+   
+   body, div, table, tr, td, th, h1, h2, h3, h4, h5, span, p, ul, li, a {
+    font-family: Arial, Verdana, Helvetica;
+    font-weight: normal;
+    color: #000000;
+   }
+   
+   body, div, table, tr, td, th, span, p, ul, li, a {
+    font-size: 12px;
+   }
+   
+   h1 { font-size: 26px; }
+   h2 { font-size: 24px; }
+   h3 { font-size: 22px; }
+   h4 { font-size: 20px; }
+   h5 { font-size: 18px; font-weight: bold; }
+   
+   /*
+   
+   .cssGridDisplay {
+    color: #000000;
+    font-weight: normal;
+    font-size: 14px;
+   }
+   
+    background: -moz-linear-gradient(top, #dedede 0%, #c1c1c1 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dedede), color-stop(100%,#c1c1c1));
+    background: -webkit-linear-gradient(top, #dedede 0%,#c1c1c1 100%);
+    background: -o-linear-gradient(top, #dedede 0%,#c1c1c1 100%);
+    background: -ms-linear-gradient(top, #dedede 0%,#c1c1c1 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dedede', endColorstr='#c1c1c1',GradientType=0 );
+    background: linear-gradient(top, #dedede 0%,#c1c1c1 100%);
+   */

@@ -1,0 +1,8 @@
+CRITICAL - 2021-01-21 22:09:48 --> Unable to connect to the database.
+#0 D:\xampp7\htdocs\dinkop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp7\htdocs\dinkop\app\Controllers\Login.php(16): CodeIgniter\Database\BaseConnection->query('select * from p...')
+#2 D:\xampp7\htdocs\dinkop\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->auth()
+#3 D:\xampp7\htdocs\dinkop\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 D:\xampp7\htdocs\dinkop\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dinkop\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

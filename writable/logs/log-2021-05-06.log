@@ -1,0 +1,435 @@
+CRITICAL - 2021-05-06 01:11:36 --> pg_query(): Query failed: ERROR:  relation &quot;admin&quot; does not exist
+LINE 1: select *, admin_id as id from admin left join kota on id = a...
+                                      ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\xampp7\\htdoc...', 196, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #182, 'select *, admin...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('select *, admin...')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('select *, admin...')
+#4 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Datasource.php(75): CodeIgniter\Database\BaseConnection->query('select *, admin...')
+#5 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(173): App\Libraries\SmartComponent\Datasource->run()
+#6 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(128): App\Libraries\SmartComponent\Grid->get_datasource()
+#7 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Admin.php(58): App\Libraries\SmartComponent\Grid->output()
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Admin->grid()
+#9 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#10 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-05-06 01:11:36 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-06 01:22:38 --> pg_query(): Query failed: ERROR:  invalid input syntax for type integer: &quot;css&quot;
+LINE 3: WHERE &quot;id&quot; = 'css'
+                     ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\xampp7\\htdoc...', 196, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #181, 'SELECT *\nFROM "...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2019): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(133): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#6 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(125): App\Controllers\Admin\Barang->form('css')
+#7 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->history('css', 'addons-pro', 'steppers.css')
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#9 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-05-06 01:22:38 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-06 01:22:38 --> pg_query(): Query failed: ERROR:  invalid input syntax for type integer: &quot;css&quot;
+LINE 3: WHERE &quot;id&quot; = 'css'
+                     ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\xampp7\\htdoc...', 196, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #181, 'SELECT *\nFROM "...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2019): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(133): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#6 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(125): App\Controllers\Admin\Barang->form('css')
+#7 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->history('css', 'addons-pro', 'steppers.min.cs...')
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#9 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-05-06 01:22:38 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-06 01:22:38 --> pg_query(): Query failed: ERROR:  invalid input syntax for type integer: &quot;js&quot;
+LINE 3: WHERE &quot;id&quot; = 'js'
+                     ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\xampp7\\htdoc...', 196, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #181, 'SELECT *\nFROM "...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2019): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(133): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#6 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(125): App\Controllers\Admin\Barang->form('js')
+#7 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->history('js', 'addons-pro', 'steppers.js')
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#9 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-05-06 01:22:38 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-06 01:22:38 --> pg_query(): Query failed: ERROR:  invalid input syntax for type integer: &quot;js&quot;
+LINE 3: WHERE &quot;id&quot; = 'js'
+                     ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\xampp7\\htdoc...', 196, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #181, 'SELECT *\nFROM "...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2019): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(133): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#6 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(125): App\Controllers\Admin\Barang->form('js')
+#7 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->history('js', 'addons-pro', 'steppers.min.js')
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#9 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-05-06 01:22:38 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-06 01:54:27 --> Failed to parse json string, error: "Type is not supported".
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\HTTP\Response.php(551): CodeIgniter\Format\JSONFormatter->format(Object(CodeIgniter\Database\Postgre\Result))
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\HTTP\Response.php(450): CodeIgniter\HTTP\Response->formatBody(Object(CodeIgniter\Database\Postgre\Result), 'json')
+#3 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(134): CodeIgniter\HTTP\Response->setJSON(Object(CodeIgniter\Database\Postgre\Result))
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->dataHistory('50')
+#5 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#6 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-06 01:54:38 --> Failed to parse json string, error: "Type is not supported".
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\HTTP\Response.php(551): CodeIgniter\Format\JSONFormatter->format(Object(CodeIgniter\Database\Postgre\Result))
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\HTTP\Response.php(450): CodeIgniter\HTTP\Response->formatBody(Object(CodeIgniter\Database\Postgre\Result), 'json')
+#3 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(134): CodeIgniter\HTTP\Response->setJSON(Object(CodeIgniter\Database\Postgre\Result))
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->dataHistory('50')
+#5 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#6 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-06 02:00:08 --> Call to undefined method CodeIgniter\Database\Postgre\Connection::select()
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->dataHistory('50')
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-06 02:10:14 --> Invalid file: admin/tagihan/list.php
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/tagihan/l...')
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/tagihan/l...', Array, true)
+#2 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Tagihan.php(18): view('admin/tagihan/l...', Array)
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Tagihan->index()
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tagihan))
+#5 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-06 02:10:22 --> Object of class CodeIgniter\HTTP\Response could not be converted to string
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/barang/hi...', Array, true)
+#2 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(128): view('admin/barang/hi...', Array)
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->history('58')
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#5 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-06 02:10:49 --> Invalid file: admin/tagihan/list.php
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/tagihan/l...')
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/tagihan/l...', Array, true)
+#2 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Tagihan.php(18): view('admin/tagihan/l...', Array)
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Tagihan->index()
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tagihan))
+#5 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-06 02:10:51 --> Invalid file: admin/tagihan/list.php
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/tagihan/l...')
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/tagihan/l...', Array, true)
+#2 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Tagihan.php(18): view('admin/tagihan/l...', Array)
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Tagihan->index()
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tagihan))
+#5 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-06 02:11:01 --> Array to string conversion
+#0 D:\xampp7\htdocs\dkurir\app\Views\admin\barang\history.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\xampp7\\htdoc...', 15, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/barang/hi...', Array, true)
+#3 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(128): view('admin/barang/hi...', Array)
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->history('58')
+#5 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#6 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-06 02:11:05 --> Array to string conversion
+#0 D:\xampp7\htdocs\dkurir\app\Views\admin\barang\history.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\xampp7\\htdoc...', 15, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/barang/hi...', Array, true)
+#3 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(128): view('admin/barang/hi...', Array)
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->history('58')
+#5 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#6 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-06 02:11:09 --> pg_query(): Query failed: ERROR:  column &quot;admin_id&quot; does not exist
+LINE 17: ... = kota_tujuan.id where bar_status = '2' order by admin_id d...
+                                                              ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\xampp7\\htdoc...', 196, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #181, 'SELECT\r\n       ...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('SELECT\r\n       ...')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#4 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Datasource.php(75): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#5 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(173): App\Libraries\SmartComponent\Datasource->run()
+#6 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(128): App\Libraries\SmartComponent\Grid->get_datasource()
+#7 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Tagihan.php(76): App\Libraries\SmartComponent\Grid->output()
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Tagihan->grid()
+#9 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tagihan))
+#10 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-05-06 02:11:09 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-06 02:11:34 --> pg_query(): Query failed: ERROR:  column &quot;admin_id&quot; does not exist
+LINE 17: ... = kota_tujuan.id where bar_status = '2' order by admin_id d...
+                                                              ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\xampp7\\htdoc...', 196, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #181, 'SELECT\r\n       ...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('SELECT\r\n       ...')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#4 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Datasource.php(75): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#5 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(173): App\Libraries\SmartComponent\Datasource->run()
+#6 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(128): App\Libraries\SmartComponent\Grid->get_datasource()
+#7 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Tagihan.php(76): App\Libraries\SmartComponent\Grid->output()
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Tagihan->grid()
+#9 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tagihan))
+#10 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-05-06 02:11:34 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-06 02:11:45 --> Object of class CodeIgniter\HTTP\Response could not be converted to string
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/barang/hi...', Array, true)
+#2 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(128): view('admin/barang/hi...', Array)
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->history('58')
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#5 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-06 02:12:22 --> Array to string conversion
+#0 D:\xampp7\htdocs\dkurir\app\Views\admin\barang\history.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\xampp7\\htdoc...', 30, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/barang/hi...', Array, true)
+#3 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(128): view('admin/barang/hi...', Array)
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->history('58')
+#5 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#6 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-06 02:12:27 --> Array to string conversion
+#0 D:\xampp7\htdocs\dkurir\app\Views\admin\barang\history.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\xampp7\\htdoc...', 30, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/barang/hi...', Array, true)
+#3 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(128): view('admin/barang/hi...', Array)
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->history('58')
+#5 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#6 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-06 02:13:22 --> pg_query(): Query failed: ERROR:  column &quot;admin_id&quot; does not exist
+LINE 17: ... = kota_tujuan.id where bar_status = '2' order by admin_id d...
+                                                              ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\xampp7\\htdoc...', 196, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #181, 'SELECT\r\n       ...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('SELECT\r\n       ...')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#4 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Datasource.php(75): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#5 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(173): App\Libraries\SmartComponent\Datasource->run()
+#6 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(128): App\Libraries\SmartComponent\Grid->get_datasource()
+#7 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Tagihan.php(76): App\Libraries\SmartComponent\Grid->output()
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Tagihan->grid()
+#9 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tagihan))
+#10 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-05-06 02:13:22 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-06 02:13:36 --> pg_query(): Query failed: ERROR:  column &quot;admin_id&quot; does not exist
+LINE 17: ... = kota_tujuan.id where bar_status = '2' order by admin_id d...
+                                                              ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\xampp7\\htdoc...', 196, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #181, 'SELECT\r\n       ...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('SELECT\r\n       ...')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#4 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Datasource.php(75): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#5 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(173): App\Libraries\SmartComponent\Datasource->run()
+#6 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(128): App\Libraries\SmartComponent\Grid->get_datasource()
+#7 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Tagihan.php(76): App\Libraries\SmartComponent\Grid->output()
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Tagihan->grid()
+#9 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tagihan))
+#10 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-05-06 02:13:36 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-06 02:13:47 --> pg_query(): Query failed: ERROR:  column &quot;admin_id&quot; does not exist
+LINE 17: ... = kota_tujuan.id where bar_status = '2' order by admin_id d...
+                                                              ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\xampp7\\htdoc...', 196, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #181, 'SELECT\r\n       ...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('SELECT\r\n       ...')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#4 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Datasource.php(75): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#5 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(173): App\Libraries\SmartComponent\Datasource->run()
+#6 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(128): App\Libraries\SmartComponent\Grid->get_datasource()
+#7 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Tagihan.php(76): App\Libraries\SmartComponent\Grid->output()
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Tagihan->grid()
+#9 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tagihan))
+#10 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-05-06 02:13:47 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-06 02:14:03 --> pg_query(): Query failed: ERROR:  column &quot;admin_id&quot; does not exist
+LINE 17: ... = kota_tujuan.id where bar_status = '2' order by admin_id d...
+                                                              ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\xampp7\\htdoc...', 196, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #181, 'SELECT\r\n       ...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('SELECT\r\n       ...')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#4 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Datasource.php(75): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#5 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(173): App\Libraries\SmartComponent\Datasource->run()
+#6 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(128): App\Libraries\SmartComponent\Grid->get_datasource()
+#7 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Tagihan.php(76): App\Libraries\SmartComponent\Grid->output()
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Tagihan->grid()
+#9 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tagihan))
+#10 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-05-06 02:18:52 --> pg_query(): Query failed: ERROR:  subquery must return only one column
+LINE 10:                     (select from log_status where log_id_bar...
+                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\xampp7\\htdoc...', 196, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #181, 'SELECT\r\n       ...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('SELECT\r\n       ...')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#4 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Datasource.php(75): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#5 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(173): App\Libraries\SmartComponent\Datasource->run()
+#6 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(128): App\Libraries\SmartComponent\Grid->get_datasource()
+#7 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Tagihan.php(76): App\Libraries\SmartComponent\Grid->output()
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Tagihan->grid()
+#9 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tagihan))
+#10 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-05-06 02:18:52 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-06 02:23:49 --> Undefined variable: tanggal
+#0 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Tagihan.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 49, Array)
+#1 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Tagihan.php(13): App\Controllers\Admin\Tagihan->grid()
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Tagihan->index()
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tagihan))
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-06 02:29:01 --> Class 'App\Controllers\Admin\DateTime' not found
+#0 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Tagihan.php(13): App\Controllers\Admin\Tagihan->grid()
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Tagihan->index()
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tagihan))
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

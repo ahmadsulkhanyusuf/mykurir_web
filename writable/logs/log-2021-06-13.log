@@ -1,0 +1,112 @@
+CRITICAL - 2021-06-13 20:33:11 --> pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;user_pkey&quot;
+DETAIL:  Key (user_id)=(2) already exists.
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\xampp7\\htdoc...', 196, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #180, 'INSERT INTO "us...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "us...')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "us...')
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO "us...', Array, false)
+#5 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\RefKurir.php(210): CodeIgniter\Database\BaseBuilder->insert(Array)
+#6 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\RefKurir.php(85): App\Controllers\Admin\RefKurir->form()
+#7 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefKurir->add()
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefKurir))
+#9 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-06-13 20:33:21 --> pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;user_pkey&quot;
+DETAIL:  Key (user_id)=(3) already exists.
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\xampp7\\htdoc...', 196, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #180, 'INSERT INTO "us...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "us...')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "us...')
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO "us...', Array, false)
+#5 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\RefKurir.php(210): CodeIgniter\Database\BaseBuilder->insert(Array)
+#6 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\RefKurir.php(85): App\Controllers\Admin\RefKurir->form()
+#7 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefKurir->add()
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefKurir))
+#9 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-06-13 20:33:28 --> pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;user_pkey&quot;
+DETAIL:  Key (user_id)=(4) already exists.
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\xampp7\\htdoc...', 196, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #180, 'INSERT INTO "us...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "us...')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "us...')
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO "us...', Array, false)
+#5 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\RefKurir.php(210): CodeIgniter\Database\BaseBuilder->insert(Array)
+#6 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\RefKurir.php(85): App\Controllers\Admin\RefKurir->form()
+#7 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefKurir->add()
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefKurir))
+#9 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-06-13 20:33:34 --> pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;user_pkey&quot;
+DETAIL:  Key (user_id)=(5) already exists.
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\xampp7\\htdoc...', 196, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #180, 'INSERT INTO "us...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "us...')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "us...')
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO "us...', Array, false)
+#5 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\RefKurir.php(210): CodeIgniter\Database\BaseBuilder->insert(Array)
+#6 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\RefKurir.php(85): App\Controllers\Admin\RefKurir->form()
+#7 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefKurir->add()
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefKurir))
+#9 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-06-13 20:33:41 --> pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;user_pkey&quot;
+DETAIL:  Key (user_id)=(6) already exists.
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\xampp7\\htdoc...', 196, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #180, 'INSERT INTO "us...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "us...')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "us...')
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO "us...', Array, false)
+#5 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\RefKurir.php(210): CodeIgniter\Database\BaseBuilder->insert(Array)
+#6 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\RefKurir.php(85): App\Controllers\Admin\RefKurir->form()
+#7 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefKurir->add()
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefKurir))
+#9 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-06-13 20:33:48 --> pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;user_pkey&quot;
+DETAIL:  Key (user_id)=(7) already exists.
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\xampp7\\htdoc...', 196, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #180, 'INSERT INTO "us...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "us...')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "us...')
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO "us...', Array, false)
+#5 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\RefKurir.php(210): CodeIgniter\Database\BaseBuilder->insert(Array)
+#6 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\RefKurir.php(85): App\Controllers\Admin\RefKurir->form()
+#7 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefKurir->add()
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefKurir))
+#9 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-06-13 20:34:47 --> pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;kurir_pkey&quot;
+DETAIL:  Key (id)=(6) already exists.
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\xampp7\\htdoc...', 196, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #180, 'INSERT INTO "ku...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "ku...')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "ku...')
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO "ku...', Array, false)
+#5 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\RefKurir.php(217): CodeIgniter\Database\BaseBuilder->insert(Array)
+#6 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\RefKurir.php(85): App\Controllers\Admin\RefKurir->form()
+#7 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefKurir->add()
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefKurir))
+#9 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-06-13 20:35:01 --> pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;kurir_pkey&quot;
+DETAIL:  Key (id)=(7) already exists.
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\xampp7\\htdoc...', 196, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #180, 'INSERT INTO "ku...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "ku...')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "ku...')
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO "ku...', Array, false)
+#5 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\RefKurir.php(217): CodeIgniter\Database\BaseBuilder->insert(Array)
+#6 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\RefKurir.php(85): App\Controllers\Admin\RefKurir->form()
+#7 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefKurir->add()
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefKurir))
+#9 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}

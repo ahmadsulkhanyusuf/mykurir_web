@@ -1,0 +1,28 @@
+CRITICAL - 2021-04-19 00:36:05 --> pg_query(): Query failed: ERROR:  relation &quot;ref_kelurahan&quot; does not exist
+LINE 2: FROM &quot;ref_kelurahan&quot;
+             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\xampp7\\htdoc...', 196, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #178, 'SELECT *\nFROM "...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 D:\xampp7\htdocs\dkurir\app\Controllers\Login.php(34): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->vRegister()
+#7 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-04-19 00:36:11 --> pg_query(): Query failed: ERROR:  relation &quot;ref_kelurahan&quot; does not exist
+LINE 2: FROM &quot;ref_kelurahan&quot;
+             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\xampp7\\htdoc...', 196, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #178, 'SELECT *\nFROM "...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 D:\xampp7\htdocs\dkurir\app\Controllers\Login.php(34): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->vRegister()
+#7 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}

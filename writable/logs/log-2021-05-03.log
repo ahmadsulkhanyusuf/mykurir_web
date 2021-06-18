@@ -1,0 +1,937 @@
+CRITICAL - 2021-05-03 02:22:33 --> Invalid file: admin/verifikasi/list.php
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/verifikas...')
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/verifikas...', Array, true)
+#2 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Home.php(16): view('admin/verifikas...', Array)
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Home->index()
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+#5 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-03 02:22:33 --> Invalid file: admin/verifikasi/list.php
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/verifikas...')
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/verifikas...', Array, true)
+#2 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Home.php(16): view('admin/verifikas...', Array)
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Home->index()
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+#5 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-03 02:22:43 --> Invalid file: admin/verifikasi/list.php
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/verifikas...')
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/verifikas...', Array, true)
+#2 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Home.php(16): view('admin/verifikas...', Array)
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Home->index()
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+#5 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-03 02:25:11 --> Invalid file: admin/verifikasi/list.php
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/verifikas...')
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/verifikas...', Array, true)
+#2 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Home.php(16): view('admin/verifikas...', Array)
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Home->index()
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+#5 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-03 02:25:37 --> Invalid file: admin/verifikasi/list.php
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/verifikas...')
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/verifikas...', Array, true)
+#2 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Home.php(16): view('admin/verifikas...', Array)
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Home->index()
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+#5 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-03 02:31:52 --> pg_query(): Query failed: ERROR:  ORDER BY &quot;id&quot; is ambiguous
+LINE 1: ...kec_id = kecamatan.id where map_kur_id=4 order by id desc li...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\xampp7\\htdoc...', 196, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #182, 'select *, kurir...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('select *, kurir...')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('select *, kurir...')
+#4 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Datasource.php(75): CodeIgniter\Database\BaseConnection->query('select *, kurir...')
+#5 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(173): App\Libraries\SmartComponent\Datasource->run()
+#6 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(128): App\Libraries\SmartComponent\Grid->get_datasource()
+#7 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\RefKurir.php(136): App\Libraries\SmartComponent\Grid->output()
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefKurir->grid_kecamatan('4')
+#9 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefKurir))
+#10 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-05-03 02:31:53 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-03 02:32:26 --> Undefined variable: id
+#0 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\RefKurir.php(134): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 134, Array)
+#1 [internal function]: App\Controllers\Admin\RefKurir->App\Controllers\Admin\{closure}(Object(App\Libraries\SmartComponent\Toolbar))
+#2 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(162): call_user_func_array(Object(Closure), Array)
+#3 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\RefKurir.php(135): App\Libraries\SmartComponent\Grid->set_toolbar(Object(Closure))
+#4 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\RefKurir.php(95): App\Controllers\Admin\RefKurir->grid_kecamatan('4')
+#5 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefKurir->edit('4')
+#6 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefKurir))
+#7 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-03 02:32:37 --> pg_query(): Query failed: ERROR:  ORDER BY &quot;id&quot; is ambiguous
+LINE 1: ...kec_id = kecamatan.id where map_kur_id=4 order by id desc li...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\xampp7\\htdoc...', 196, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #182, 'select *, kurir...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('select *, kurir...')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('select *, kurir...')
+#4 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Datasource.php(75): CodeIgniter\Database\BaseConnection->query('select *, kurir...')
+#5 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(173): App\Libraries\SmartComponent\Datasource->run()
+#6 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(128): App\Libraries\SmartComponent\Grid->get_datasource()
+#7 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\RefKurir.php(136): App\Libraries\SmartComponent\Grid->output()
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefKurir->grid_kecamatan('4')
+#9 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefKurir))
+#10 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-05-03 02:32:37 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-03 02:32:39 --> pg_query(): Query failed: ERROR:  ORDER BY &quot;id&quot; is ambiguous
+LINE 1: ...kec_id = kecamatan.id where map_kur_id=4 order by id desc li...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\xampp7\\htdoc...', 196, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #182, 'select *, kurir...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('select *, kurir...')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('select *, kurir...')
+#4 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Datasource.php(75): CodeIgniter\Database\BaseConnection->query('select *, kurir...')
+#5 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(173): App\Libraries\SmartComponent\Datasource->run()
+#6 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(128): App\Libraries\SmartComponent\Grid->get_datasource()
+#7 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\RefKurir.php(136): App\Libraries\SmartComponent\Grid->output()
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefKurir->grid_kecamatan('4')
+#9 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefKurir))
+#10 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-05-03 02:32:39 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-03 02:32:42 --> pg_query(): Query failed: ERROR:  ORDER BY &quot;id&quot; is ambiguous
+LINE 1: ...kec_id = kecamatan.id where map_kur_id=4 order by id desc li...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\xampp7\\htdoc...', 196, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #182, 'select *, kurir...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('select *, kurir...')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('select *, kurir...')
+#4 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Datasource.php(75): CodeIgniter\Database\BaseConnection->query('select *, kurir...')
+#5 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(173): App\Libraries\SmartComponent\Datasource->run()
+#6 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(128): App\Libraries\SmartComponent\Grid->get_datasource()
+#7 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\RefKurir.php(136): App\Libraries\SmartComponent\Grid->output()
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefKurir->grid_kecamatan('4')
+#9 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefKurir))
+#10 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-05-03 02:32:42 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-03 02:33:09 --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;=&quot;
+LINE 1: ... label from kecamatan left join kota  kec_id_kota = kota.id ...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\xampp7\\htdoc...', 196, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #180, 'select kecamata...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('select kecamata...')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('select kecamata...')
+#4 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Form.php(181): CodeIgniter\Database\BaseConnection->query('select kecamata...')
+#5 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(129): App\Libraries\SmartComponent\Form->add('bar_kec_tujuan', 'Kecamatan Tujua...', 'select', false, '', 'style="width:10...', Array)
+#6 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(101): App\Controllers\Admin\Barang->form()
+#7 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->add()
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#9 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-05-03 02:33:17 --> pg_query(): Query failed: ERROR:  ORDER BY &quot;id&quot; is ambiguous
+LINE 1: ...kec_id = kecamatan.id where map_kur_id=4 order by id desc li...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\xampp7\\htdoc...', 196, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #182, 'select *, kurir...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('select *, kurir...')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('select *, kurir...')
+#4 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Datasource.php(75): CodeIgniter\Database\BaseConnection->query('select *, kurir...')
+#5 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(173): App\Libraries\SmartComponent\Datasource->run()
+#6 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(128): App\Libraries\SmartComponent\Grid->get_datasource()
+#7 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\RefKurir.php(136): App\Libraries\SmartComponent\Grid->output()
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefKurir->grid_kecamatan('4')
+#9 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefKurir))
+#10 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-05-03 02:33:17 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-03 02:33:22 --> pg_query(): Query failed: ERROR:  ORDER BY &quot;id&quot; is ambiguous
+LINE 1: ...kec_id = kecamatan.id where map_kur_id=4 order by id desc li...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\xampp7\\htdoc...', 196, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #182, 'select *, kurir...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('select *, kurir...')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('select *, kurir...')
+#4 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Datasource.php(75): CodeIgniter\Database\BaseConnection->query('select *, kurir...')
+#5 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(173): App\Libraries\SmartComponent\Datasource->run()
+#6 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(128): App\Libraries\SmartComponent\Grid->get_datasource()
+#7 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\RefKurir.php(136): App\Libraries\SmartComponent\Grid->output()
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefKurir->grid_kecamatan('4')
+#9 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefKurir))
+#10 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-05-03 02:33:22 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-03 02:34:21 --> pg_query(): Query failed: ERROR:  ORDER BY &quot;id&quot; is ambiguous
+LINE 1: ...kec_id = kecamatan.id where map_kur_id=4 order by id desc li...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\xampp7\\htdoc...', 196, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #182, 'select *, kurir...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('select *, kurir...')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('select *, kurir...')
+#4 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Datasource.php(75): CodeIgniter\Database\BaseConnection->query('select *, kurir...')
+#5 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(173): App\Libraries\SmartComponent\Datasource->run()
+#6 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(128): App\Libraries\SmartComponent\Grid->get_datasource()
+#7 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\RefKurir.php(132): App\Libraries\SmartComponent\Grid->output()
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefKurir->grid_kecamatan('4')
+#9 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefKurir))
+#10 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-05-03 02:34:21 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-03 02:36:08 --> Undefined index: min
+#0 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Form.php(234): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 234, Array)
+#1 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(136): App\Libraries\SmartComponent\Form->add('bar_harga', 'Harga Barang', 'slider', true, '50000', 'style="width:10...')
+#2 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(101): App\Controllers\Admin\Barang->form()
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->add()
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#5 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-03 02:36:23 --> Undefined index: min
+#0 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Form.php(234): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 234, Array)
+#1 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(136): App\Libraries\SmartComponent\Form->add('bar_harga', 'Harga Barang', 'slider', true, '', 'style="width:10...')
+#2 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(101): App\Controllers\Admin\Barang->form()
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->add()
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#5 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-03 02:36:32 --> Undefined index: min
+#0 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Form.php(234): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 234, Array)
+#1 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(136): App\Libraries\SmartComponent\Form->add('bar_harga', 'Harga Barang', 'slider', true, '', 'style="width:10...')
+#2 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(101): App\Controllers\Admin\Barang->form()
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->add()
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#5 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-03 02:37:01 --> pg_query(): Query failed: ERROR:  ORDER BY &quot;id&quot; is ambiguous
+LINE 1: ...kec_id = kecamatan.id where map_kur_id=4 order by id desc li...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\xampp7\\htdoc...', 196, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #182, 'select *, kurir...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('select *, kurir...')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('select *, kurir...')
+#4 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Datasource.php(75): CodeIgniter\Database\BaseConnection->query('select *, kurir...')
+#5 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(173): App\Libraries\SmartComponent\Datasource->run()
+#6 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(128): App\Libraries\SmartComponent\Grid->get_datasource()
+#7 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\RefKurir.php(133): App\Libraries\SmartComponent\Grid->output()
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefKurir->grid_kecamatan('4')
+#9 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefKurir))
+#10 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-05-03 02:37:01 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-03 02:37:10 --> pg_query(): Query failed: ERROR:  column &quot;bar_cust_id&quot; of relation &quot;kecamatan&quot; does not exist
+LINE 1: INSERT INTO &quot;kecamatan&quot; (&quot;bar_cust_id&quot;, &quot;bar_kec_tujuan&quot;, &quot;b...
+                                 ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\xampp7\\htdoc...', 196, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #180, 'INSERT INTO "ke...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "ke...')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "ke...')
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO "ke...', Array, false)
+#5 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(144): CodeIgniter\Database\BaseBuilder->insert(Array)
+#6 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(101): App\Controllers\Admin\Barang->form()
+#7 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->add()
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#9 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-05-03 02:37:26 --> pg_query(): Query failed: ERROR:  ORDER BY &quot;id&quot; is ambiguous
+LINE 1: ...kec_id = kecamatan.id where map_kur_id=4 order by id desc li...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\xampp7\\htdoc...', 196, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #182, 'select *, kurir...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('select *, kurir...')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('select *, kurir...')
+#4 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Datasource.php(75): CodeIgniter\Database\BaseConnection->query('select *, kurir...')
+#5 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(173): App\Libraries\SmartComponent\Datasource->run()
+#6 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(128): App\Libraries\SmartComponent\Grid->get_datasource()
+#7 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\RefKurir.php(133): App\Libraries\SmartComponent\Grid->output()
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefKurir->grid_kecamatan('4')
+#9 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefKurir))
+#10 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-05-03 02:37:26 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-03 02:37:53 --> pg_query(): Query failed: ERROR:  ORDER BY &quot;id&quot; is ambiguous
+LINE 1: ...kec_id = kecamatan.id where map_kur_id=4 order by id desc li...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\xampp7\\htdoc...', 196, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #182, 'select *, kurir...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('select *, kurir...')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('select *, kurir...')
+#4 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Datasource.php(75): CodeIgniter\Database\BaseConnection->query('select *, kurir...')
+#5 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(173): App\Libraries\SmartComponent\Datasource->run()
+#6 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(128): App\Libraries\SmartComponent\Grid->get_datasource()
+#7 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\RefKurir.php(133): App\Libraries\SmartComponent\Grid->output()
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefKurir->grid_kecamatan('4')
+#9 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefKurir))
+#10 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-05-03 02:37:53 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-03 02:38:14 --> pg_query(): Query failed: ERROR:  ORDER BY &quot;id&quot; is ambiguous
+LINE 1: ...kec_id = kecamatan.id where map_kur_id=4 order by id desc li...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\xampp7\\htdoc...', 196, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #182, 'select *, kurir...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('select *, kurir...')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('select *, kurir...')
+#4 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Datasource.php(75): CodeIgniter\Database\BaseConnection->query('select *, kurir...')
+#5 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(173): App\Libraries\SmartComponent\Datasource->run()
+#6 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(128): App\Libraries\SmartComponent\Grid->get_datasource()
+#7 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\RefKurir.php(133): App\Libraries\SmartComponent\Grid->output()
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefKurir->grid_kecamatan('4')
+#9 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefKurir))
+#10 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-05-03 02:38:14 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-03 02:38:57 --> pg_query(): Query failed: ERROR:  ORDER BY &quot;id&quot; is ambiguous
+LINE 1: ...kec_id = kecamatan.id where map_kur_id=4 order by id desc li...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\xampp7\\htdoc...', 196, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #182, 'select *, kurir...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('select *, kurir...')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('select *, kurir...')
+#4 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Datasource.php(75): CodeIgniter\Database\BaseConnection->query('select *, kurir...')
+#5 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(173): App\Libraries\SmartComponent\Datasource->run()
+#6 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(128): App\Libraries\SmartComponent\Grid->get_datasource()
+#7 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\RefKurir.php(133): App\Libraries\SmartComponent\Grid->output()
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefKurir->grid_kecamatan('4')
+#9 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefKurir))
+#10 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-05-03 02:38:57 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-03 02:39:27 --> pg_query(): Query failed: ERROR:  column &quot;bar_cust_id&quot; of relation &quot;kecamatan&quot; does not exist
+LINE 1: INSERT INTO &quot;kecamatan&quot; (&quot;bar_cust_id&quot;, &quot;bar_kec_tujuan&quot;, &quot;b...
+                                 ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\xampp7\\htdoc...', 196, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #180, 'INSERT INTO "ke...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "ke...')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "ke...')
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO "ke...', Array, false)
+#5 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(144): CodeIgniter\Database\BaseBuilder->insert(Array)
+#6 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(101): App\Controllers\Admin\Barang->form()
+#7 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->add()
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#9 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-05-03 02:44:10 --> Undefined index: min
+#0 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Form.php(234): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 234, Array)
+#1 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\RefKurir.php(141): App\Libraries\SmartComponent\Form->add('kecamatan', 'Kecamatan', 'slider', false, Array, 'style="width:10...', Array)
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefKurir->addKecamatan('4')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefKurir))
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-03 02:46:45 --> pg_query(): Query failed: ERROR:  ORDER BY &quot;id&quot; is ambiguous
+LINE 1: ...kec_id = kecamatan.id where map_kur_id=4 order by id desc li...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\xampp7\\htdoc...', 196, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #182, 'select *, kurir...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('select *, kurir...')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('select *, kurir...')
+#4 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Datasource.php(75): CodeIgniter\Database\BaseConnection->query('select *, kurir...')
+#5 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(173): App\Libraries\SmartComponent\Datasource->run()
+#6 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(128): App\Libraries\SmartComponent\Grid->get_datasource()
+#7 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\RefKurir.php(133): App\Libraries\SmartComponent\Grid->output()
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefKurir->grid_kecamatan('4')
+#9 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefKurir))
+#10 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-05-03 02:46:45 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-03 02:46:45 --> Undefined variable: 4
+#0 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\RefKurir.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 139, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefKurir->addKecamatan('4')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefKurir))
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-03 02:46:58 --> Invalid file: global/form_popup.php
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('global/form_pop...')
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('global/form_pop...', Array, true)
+#2 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\RefKurir.php(140): view('global/form_pop...', Array)
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefKurir->addKecamatan('4')
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefKurir))
+#5 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-03 02:46:59 --> Invalid file: global/form_popup.php
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('global/form_pop...')
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('global/form_pop...', Array, true)
+#2 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\RefKurir.php(140): view('global/form_pop...', Array)
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefKurir->addKecamatan('4')
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefKurir))
+#5 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-03 02:47:11 --> Undefined variable: url_back
+#0 D:\xampp7\htdocs\dkurir\app\Views\global\form_pop.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 12, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('global/form_pop', Array, true)
+#3 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\RefKurir.php(140): view('global/form_pop', Array)
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefKurir->addKecamatan('4')
+#5 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefKurir))
+#6 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-03 02:47:13 --> Undefined property: App\Controllers\Admin\Barang::$input
+#0 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(140): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp7\\htdoc...', 140, Array)
+#1 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(101): App\Controllers\Admin\Barang->form()
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->add()
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-03 02:47:21 --> Undefined variable: form
+#0 D:\xampp7\htdocs\dkurir\app\Views\global\form_pop.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 28, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('global/form_pop', Array, true)
+#3 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\RefKurir.php(140): view('global/form_pop', Array)
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefKurir->addKecamatan('4')
+#5 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefKurir))
+#6 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-03 02:47:21 --> Undefined variable: form
+#0 D:\xampp7\htdocs\dkurir\app\Views\global\form_pop.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 28, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('global/form_pop', Array, true)
+#3 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\RefKurir.php(140): view('global/form_pop', Array)
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefKurir->addKecamatan('4')
+#5 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefKurir))
+#6 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-03 02:47:54 --> pg_query(): Query failed: ERROR:  ORDER BY &quot;id&quot; is ambiguous
+LINE 1: ...kec_id = kecamatan.id where map_kur_id=4 order by id desc li...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\xampp7\\htdoc...', 196, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #182, 'select *, kurir...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('select *, kurir...')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('select *, kurir...')
+#4 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Datasource.php(75): CodeIgniter\Database\BaseConnection->query('select *, kurir...')
+#5 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(173): App\Libraries\SmartComponent\Datasource->run()
+#6 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(128): App\Libraries\SmartComponent\Grid->get_datasource()
+#7 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\RefKurir.php(133): App\Libraries\SmartComponent\Grid->output()
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefKurir->grid_kecamatan('4')
+#9 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefKurir))
+#10 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-05-03 02:47:54 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-03 02:48:05 --> pg_query(): Query failed: ERROR:  ORDER BY &quot;id&quot; is ambiguous
+LINE 1: ...kec_id = kecamatan.id where map_kur_id=4 order by id desc li...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\xampp7\\htdoc...', 196, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #182, 'select *, kurir...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('select *, kurir...')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('select *, kurir...')
+#4 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Datasource.php(75): CodeIgniter\Database\BaseConnection->query('select *, kurir...')
+#5 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(173): App\Libraries\SmartComponent\Datasource->run()
+#6 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(128): App\Libraries\SmartComponent\Grid->get_datasource()
+#7 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\RefKurir.php(133): App\Libraries\SmartComponent\Grid->output()
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefKurir->grid_kecamatan('4')
+#9 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefKurir))
+#10 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-05-03 02:48:05 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-03 02:49:17 --> html_entity_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'html_entity_dec...', 'D:\\xampp7\\htdoc...', 376, Array)
+#1 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Form.php(376): html_entity_decode(Array)
+#2 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\RefKurir.php(154): App\Libraries\SmartComponent\Form->get_data()
+#3 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\RefKurir.php(139): App\Controllers\Admin\RefKurir->formAddKecamatan('4')
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefKurir->addKecamatan('4')
+#5 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefKurir))
+#6 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-03 02:52:11 --> Call to undefined method CodeIgniter\Database\Postgre\Builder::first()
+#0 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(140): App\Controllers\Admin\Barang->genKode('2')
+#1 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(101): App\Controllers\Admin\Barang->form()
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->add()
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-03 02:53:57 --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;.&quot;
+LINE 3: JOIN &quot;kecamatan&quot; USING (&quot;kecamatan&quot;.&quot;id&quot;)
+                                           ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\xampp7\\htdoc...', 196, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #180, 'SELECT *\nFROM "...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(156): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(140): App\Controllers\Admin\Barang->genKode('2')
+#7 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(101): App\Controllers\Admin\Barang->form()
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->add()
+#9 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#10 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-05-03 02:54:46 --> Call to undefined method CodeIgniter\Database\Postgre\Builder::count()
+#0 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(140): App\Controllers\Admin\Barang->genKode('2')
+#1 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(101): App\Controllers\Admin\Barang->form()
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->add()
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-03 02:54:54 --> pg_query(): Query failed: ERROR:  ORDER BY &quot;id&quot; is ambiguous
+LINE 1: ...kec_id = kecamatan.id where map_kur_id=4 order by id desc li...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\xampp7\\htdoc...', 196, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #182, 'select *, kurir...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('select *, kurir...')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('select *, kurir...')
+#4 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Datasource.php(75): CodeIgniter\Database\BaseConnection->query('select *, kurir...')
+#5 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(173): App\Libraries\SmartComponent\Datasource->run()
+#6 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(128): App\Libraries\SmartComponent\Grid->get_datasource()
+#7 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\RefKurir.php(133): App\Libraries\SmartComponent\Grid->output()
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefKurir->grid_kecamatan('4')
+#9 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefKurir))
+#10 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-05-03 02:54:54 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-03 02:55:01 --> pg_query(): Query failed: ERROR:  ORDER BY &quot;id&quot; is ambiguous
+LINE 1: ...kec_id = kecamatan.id where map_kur_id=4 order by id desc li...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\xampp7\\htdoc...', 196, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #182, 'select *, kurir...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('select *, kurir...')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('select *, kurir...')
+#4 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Datasource.php(75): CodeIgniter\Database\BaseConnection->query('select *, kurir...')
+#5 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(173): App\Libraries\SmartComponent\Datasource->run()
+#6 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(128): App\Libraries\SmartComponent\Grid->get_datasource()
+#7 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\RefKurir.php(133): App\Libraries\SmartComponent\Grid->output()
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefKurir->grid_kecamatan('4')
+#9 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefKurir))
+#10 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-05-03 02:55:01 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-03 02:55:11 --> pg_query(): Query failed: ERROR:  ORDER BY &quot;id&quot; is ambiguous
+LINE 1: ...kec_id = kecamatan.id where map_kur_id=4 order by id desc li...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\xampp7\\htdoc...', 196, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #182, 'select *, kurir...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('select *, kurir...')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('select *, kurir...')
+#4 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Datasource.php(75): CodeIgniter\Database\BaseConnection->query('select *, kurir...')
+#5 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(173): App\Libraries\SmartComponent\Datasource->run()
+#6 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(128): App\Libraries\SmartComponent\Grid->get_datasource()
+#7 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\RefKurir.php(133): App\Libraries\SmartComponent\Grid->output()
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefKurir->grid_kecamatan('4')
+#9 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefKurir))
+#10 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-05-03 02:55:11 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-03 02:55:22 --> pg_query(): Query failed: ERROR:  ORDER BY &quot;id&quot; is ambiguous
+LINE 1: ...kec_id = kecamatan.id where map_kur_id=4 order by id desc li...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\xampp7\\htdoc...', 196, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #182, 'select *, kurir...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('select *, kurir...')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('select *, kurir...')
+#4 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Datasource.php(75): CodeIgniter\Database\BaseConnection->query('select *, kurir...')
+#5 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(173): App\Libraries\SmartComponent\Datasource->run()
+#6 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(128): App\Libraries\SmartComponent\Grid->get_datasource()
+#7 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\RefKurir.php(133): App\Libraries\SmartComponent\Grid->output()
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefKurir->grid_kecamatan('4')
+#9 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefKurir))
+#10 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-05-03 02:56:41 --> Call to undefined method CodeIgniter\Database\Postgre\Builder::count()
+#0 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(140): App\Controllers\Admin\Barang->genKode('2')
+#1 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(101): App\Controllers\Admin\Barang->form()
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->add()
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-03 02:58:10 --> Undefined property: CodeIgniter\Database\Postgre\Result::$kota_kode
+#0 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(159): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp7\\htdoc...', 159, Array)
+#1 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(140): App\Controllers\Admin\Barang->genKode('2')
+#2 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(101): App\Controllers\Admin\Barang->form()
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->add()
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#5 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-03 02:59:44 --> Call to undefined method CodeIgniter\Database\Postgre\Builder::getResultArray()
+#0 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(140): App\Controllers\Admin\Barang->genKode('2')
+#1 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(101): App\Controllers\Admin\Barang->form()
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->add()
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-03 02:59:53 --> Call to undefined method CodeIgniter\Database\Postgre\Builder::getRowArray()
+#0 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(140): App\Controllers\Admin\Barang->genKode('2')
+#1 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(101): App\Controllers\Admin\Barang->form()
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->add()
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-03 03:04:02 --> Illegal offset type
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(769): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal offset ...', 'D:\\xampp7\\htdoc...', 769, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(744): CodeIgniter\Database\BaseBuilder->whereHaving('QBWhere', Object(Closure), NULL, 'OR ', NULL)
+#2 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(174): CodeIgniter\Database\BaseBuilder->orWhere(Object(Closure))
+#3 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(141): App\Controllers\Admin\Barang->genOnkir('2', '5')
+#4 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(101): App\Controllers\Admin\Barang->form()
+#5 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->add()
+#6 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#7 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-03 03:04:55 --> Illegal offset type
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(769): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal offset ...', 'D:\\xampp7\\htdoc...', 769, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(744): CodeIgniter\Database\BaseBuilder->whereHaving('QBWhere', Object(Closure), NULL, 'OR ', NULL)
+#2 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(173): CodeIgniter\Database\BaseBuilder->orWhere(Object(Closure))
+#3 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(141): App\Controllers\Admin\Barang->genOnkir('2', '5')
+#4 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(101): App\Controllers\Admin\Barang->form()
+#5 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->add()
+#6 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#7 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-03 20:32:01 --> Invalid file: admin/verifikasi/list.php
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/verifikas...')
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/verifikas...', Array, true)
+#2 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Home.php(16): view('admin/verifikas...', Array)
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Home->index()
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+#5 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-03 20:32:57 --> A non-numeric value encountered
+#0 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\xampp7\\htdoc...', 142, Array)
+#1 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(101): App\Controllers\Admin\Barang->form()
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->add()
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-03 20:33:33 --> A non-numeric value encountered
+#0 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\xampp7\\htdoc...', 142, Array)
+#1 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(101): App\Controllers\Admin\Barang->form()
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->add()
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-03 20:34:30 --> pg_query(): Query failed: ERROR:  invalid input syntax for type integer: &quot;now()&quot;
+LINE 1: ...6', '2', 'safd', 'fa', 'fda', '1000', '1', 0, 7000, 'now()')
+                                                               ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\xampp7\\htdoc...', 196, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #180, 'INSERT INTO "ba...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "ba...')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "ba...')
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO "ba...', Array, false)
+#5 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(147): CodeIgniter\Database\BaseBuilder->insert(Array)
+#6 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(101): App\Controllers\Admin\Barang->form()
+#7 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->add()
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#9 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-05-03 20:36:11 --> A non-numeric value encountered
+#0 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\xampp7\\htdoc...', 142, Array)
+#1 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(101): App\Controllers\Admin\Barang->form()
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->add()
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-03 20:39:31 --> syntax error, unexpected ';'
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('admin/barang')
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('admin/barang')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-03 20:43:33 --> pg_query(): Query failed: ERROR:  column &quot;kurir_nama&quot; does not exist
+LINE 10: ...an Oleh pengirim' else 'Diambil kurir '||coalesce(kurir_nama...
+                                                              ^
+HINT:  Perhaps you meant to reference the column &quot;kurir.kur_nama&quot;.
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\xampp7\\htdoc...', 196, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #182, 'SELECT\r\n       ...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('SELECT\r\n       ...')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#4 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Datasource.php(75): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#5 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(173): App\Libraries\SmartComponent\Datasource->run()
+#6 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(128): App\Libraries\SmartComponent\Grid->get_datasource()
+#7 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(85): App\Libraries\SmartComponent\Grid->output()
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->grid()
+#9 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#10 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-05-03 20:43:33 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-03 20:43:57 --> pg_query(): Query failed: ERROR:  column &quot;kurir_nama&quot; does not exist
+LINE 10: ...an Oleh pengirim' else 'Diambil kurir '||coalesce(kurir_nama...
+                                                              ^
+HINT:  Perhaps you meant to reference the column &quot;kurir.kur_nama&quot;.
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\xampp7\\htdoc...', 196, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #182, 'SELECT\r\n       ...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('SELECT\r\n       ...')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#4 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Datasource.php(75): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#5 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(173): App\Libraries\SmartComponent\Datasource->run()
+#6 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(128): App\Libraries\SmartComponent\Grid->get_datasource()
+#7 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(85): App\Libraries\SmartComponent\Grid->output()
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->grid()
+#9 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#10 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-05-03 20:43:57 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-03 20:44:05 --> pg_query(): Query failed: ERROR:  column &quot;kurir_nama&quot; does not exist
+LINE 10: ...an Oleh pengirim' else 'Diambil kurir '||coalesce(kurir_nama...
+                                                              ^
+HINT:  Perhaps you meant to reference the column &quot;kurir.kur_nama&quot;.
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\xampp7\\htdoc...', 196, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #182, 'SELECT\r\n       ...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('SELECT\r\n       ...')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#4 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Datasource.php(75): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#5 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(173): App\Libraries\SmartComponent\Datasource->run()
+#6 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(128): App\Libraries\SmartComponent\Grid->get_datasource()
+#7 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(85): App\Libraries\SmartComponent\Grid->output()
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->grid()
+#9 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#10 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-05-03 20:44:05 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

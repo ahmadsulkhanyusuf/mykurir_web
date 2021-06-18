@@ -1,0 +1,116 @@
+CRITICAL - 2021-05-08 02:31:44 --> Undefined index: user_password
+#0 D:\xampp7\htdocs\dkurir\app\Controllers\Login.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 19, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->auth()
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-08 02:31:51 --> Undefined index: user_password
+#0 D:\xampp7\htdocs\dkurir\app\Controllers\Login.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 19, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->auth()
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-08 02:36:47 --> Trying to get property 'bar_kode' of non-object
+#0 D:\xampp7\htdocs\dkurir\app\Views\admin\barang\history.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp7\\htdoc...', 7, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/barang/hi...', Array, true)
+#3 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(130): view('admin/barang/hi...', Array)
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->history('56')
+#5 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#6 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-08 02:49:44 --> Wrong parameter count for number_format()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Wrong parameter...', 'D:\\xampp7\\htdoc...', 34, Array)
+#1 D:\xampp7\htdocs\dkurir\app\Views\admin\barang\history.php(34): number_format('50000', 2, '0')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\xampp7\\htdoc...')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/barang/hi...', Array, true)
+#4 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(130): view('admin/barang/hi...', Array)
+#5 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->history('53')
+#6 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#7 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-08 02:57:48 --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;order&quot;
+LINE 1:  order by id desc limit 25 offset 0
+         ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\xampp7\\htdoc...', 196, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #181, ' order by id de...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute(' order by id de...')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery(' order by id de...')
+#4 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Datasource.php(75): CodeIgniter\Database\BaseConnection->query(' order by id de...')
+#5 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(173): App\Libraries\SmartComponent\Datasource->run()
+#6 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(128): App\Libraries\SmartComponent\Grid->get_datasource()
+#7 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\RekapPendapatan.php(58): App\Libraries\SmartComponent\Grid->output()
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RekapPendapatan->grid()
+#9 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RekapPendapatan))
+#10 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-05-08 02:57:48 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-08 02:58:11 --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;order&quot;
+LINE 1:  order by id desc limit 25 offset 0
+         ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\xampp7\\htdoc...', 196, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #181, ' order by id de...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute(' order by id de...')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery(' order by id de...')
+#4 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Datasource.php(75): CodeIgniter\Database\BaseConnection->query(' order by id de...')
+#5 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(173): App\Libraries\SmartComponent\Datasource->run()
+#6 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(128): App\Libraries\SmartComponent\Grid->get_datasource()
+#7 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\RekapPoin.php(58): App\Libraries\SmartComponent\Grid->output()
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RekapPoin->grid()
+#9 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RekapPoin))
+#10 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-05-08 02:58:11 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-08 03:14:17 --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;order&quot;
+LINE 1:  order by id desc limit 25 offset 0
+         ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\xampp7\\htdoc...', 196, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #181, ' order by id de...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute(' order by id de...')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery(' order by id de...')
+#4 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Datasource.php(75): CodeIgniter\Database\BaseConnection->query(' order by id de...')
+#5 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(173): App\Libraries\SmartComponent\Datasource->run()
+#6 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(128): App\Libraries\SmartComponent\Grid->get_datasource()
+#7 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\RekapPoin.php(58): App\Libraries\SmartComponent\Grid->output()
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RekapPoin->grid()
+#9 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RekapPoin))
+#10 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-05-08 03:14:17 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

@@ -1,0 +1,813 @@
+CRITICAL - 2020-09-17 01:19:03 --> pg_query(): Query failed: ERROR:  column &quot;id&quot; does not exist
+LINE 5: ...                       ref_produk_varian order by id asc lim...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp7\\htdoc...', 196, Array)
+#1 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #119, 'SELECT\r\n       ...')
+#2 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('SELECT\r\n       ...')
+#3 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#4 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Datasource.php(72): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#5 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(129): App\Libraries\SmartComponent\Datasource->run()
+#6 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(94): App\Libraries\SmartComponent\Grid->get_datasource()
+#7 C:\xampp7\htdocs\apps\disperindag\app\Controllers\Admin\Rekap.php(65): App\Libraries\SmartComponent\Grid->output()
+#8 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Rekap->gridRekap('2020-09-17', '0')
+#9 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rekap))
+#10 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp7\htdocs\apps\disperindag\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-09-17 01:19:03 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-17 01:22:33 --> pg_query(): Query failed: ERROR:  column &quot;id&quot; does not exist
+LINE 5: ...                       ref_produk_varian order by id asc lim...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp7\\htdoc...', 196, Array)
+#1 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #119, 'SELECT\r\n       ...')
+#2 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('SELECT\r\n       ...')
+#3 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#4 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Datasource.php(72): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#5 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(129): App\Libraries\SmartComponent\Datasource->run()
+#6 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(94): App\Libraries\SmartComponent\Grid->get_datasource()
+#7 C:\xampp7\htdocs\apps\disperindag\app\Controllers\Admin\Rekap.php(65): App\Libraries\SmartComponent\Grid->output()
+#8 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Rekap->gridRekap('2020-09-17', '0')
+#9 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rekap))
+#10 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp7\htdocs\apps\disperindag\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-09-17 01:22:33 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-17 01:23:40 --> pg_query(): Query failed: ERROR:  column &quot;id&quot; does not exist
+LINE 5: ...                       ref_produk_varian order by id asc lim...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp7\\htdoc...', 196, Array)
+#1 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #119, 'SELECT\r\n       ...')
+#2 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('SELECT\r\n       ...')
+#3 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#4 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Datasource.php(72): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#5 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(129): App\Libraries\SmartComponent\Datasource->run()
+#6 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(94): App\Libraries\SmartComponent\Grid->get_datasource()
+#7 C:\xampp7\htdocs\apps\disperindag\app\Controllers\Admin\Rekap.php(65): App\Libraries\SmartComponent\Grid->output()
+#8 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Rekap->gridRekap('2020-09-17', '0')
+#9 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rekap))
+#10 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp7\htdocs\apps\disperindag\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-09-17 01:23:40 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-17 01:23:59 --> pg_query(): Query failed: ERROR:  column &quot;id&quot; does not exist
+LINE 5: ...                       ref_produk_varian order by id asc lim...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp7\\htdoc...', 196, Array)
+#1 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #119, 'SELECT\r\n       ...')
+#2 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('SELECT\r\n       ...')
+#3 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#4 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Datasource.php(72): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#5 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(129): App\Libraries\SmartComponent\Datasource->run()
+#6 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(94): App\Libraries\SmartComponent\Grid->get_datasource()
+#7 C:\xampp7\htdocs\apps\disperindag\app\Controllers\Admin\Rekap.php(65): App\Libraries\SmartComponent\Grid->output()
+#8 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Rekap->gridRekap('2020-09-17', '0')
+#9 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rekap))
+#10 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp7\htdocs\apps\disperindag\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-09-17 01:27:00 --> Call to undefined method App\Libraries\SmartComponent\Grid::set_order()
+#0 C:\xampp7\htdocs\apps\disperindag\app\Controllers\Admin\Rekap.php(26): App\Controllers\Admin\Rekap->gridRekap()
+#1 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Rekap->index()
+#2 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rekap))
+#3 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\apps\disperindag\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-17 01:27:17 --> implode(): Invalid arguments passed
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'implode(): Inva...', 'C:\\xampp7\\htdoc...', 61, Array)
+#1 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Datasource.php(61): implode(' ', 'ref_produk_labe...')
+#2 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(129): App\Libraries\SmartComponent\Datasource->run()
+#3 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(94): App\Libraries\SmartComponent\Grid->get_datasource()
+#4 C:\xampp7\htdocs\apps\disperindag\app\Controllers\Admin\Rekap.php(74): App\Libraries\SmartComponent\Grid->output()
+#5 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Rekap->gridRekap('2020-09-17', '0')
+#6 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rekap))
+#7 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp7\htdocs\apps\disperindag\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-09-17 01:34:09 --> Undefined variable: new_tanggal
+#0 C:\xampp7\htdocs\apps\disperindag\app\Controllers\Admin\Rekap.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7\\htdoc...', 48, Array)
+#1 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Rekap->gridRekap('0')
+#2 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rekap))
+#3 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\apps\disperindag\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-17 01:34:20 --> Undefined variable: new_tanggal
+#0 C:\xampp7\htdocs\apps\disperindag\app\Controllers\Admin\Rekap.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7\\htdoc...', 48, Array)
+#1 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Rekap->gridRekap('0')
+#2 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rekap))
+#3 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\apps\disperindag\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-17 01:34:34 --> pg_query(): Query failed: ERROR:  date/time field value out of range: &quot;0&quot;
+LINE 5: ...r_id = ref_produk_var_id and survey_det_tanggal = '0' ),0) a...
+                                                             ^
+HINT:  Perhaps you need a different &quot;datestyle&quot; setting.
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp7\\htdoc...', 196, Array)
+#1 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #119, 'SELECT\r\n       ...')
+#2 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('SELECT\r\n       ...')
+#3 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#4 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Datasource.php(72): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#5 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(129): App\Libraries\SmartComponent\Datasource->run()
+#6 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(94): App\Libraries\SmartComponent\Grid->get_datasource()
+#7 C:\xampp7\htdocs\apps\disperindag\app\Controllers\Admin\Rekap.php(76): App\Libraries\SmartComponent\Grid->output()
+#8 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Rekap->gridRekap('0')
+#9 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Rekap))
+#10 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp7\htdocs\apps\disperindag\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-09-17 01:35:22 --> Undefined offset: 1
+#0 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Datasource.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp7\\htdoc...', 29, Array)
+#1 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(127): App\Libraries\SmartComponent\Datasource->set_query('select ref_prod...', Array)
+#2 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(94): App\Libraries\SmartComponent\Grid->get_datasource()
+#3 C:\xampp7\htdocs\apps\disperindag\app\Controllers\Admin\RefSeller.php(246): App\Libraries\SmartComponent\Grid->output()
+#4 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefSeller->grid_pilih_produk('5')
+#5 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefSeller))
+#6 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp7\htdocs\apps\disperindag\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-17 01:35:31 --> Undefined offset: 1
+#0 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Datasource.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp7\\htdoc...', 29, Array)
+#1 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(127): App\Libraries\SmartComponent\Datasource->set_query('select ref_prod...', Array)
+#2 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(94): App\Libraries\SmartComponent\Grid->get_datasource()
+#3 C:\xampp7\htdocs\apps\disperindag\app\Controllers\Admin\RefSeller.php(246): App\Libraries\SmartComponent\Grid->output()
+#4 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefSeller->grid_pilih_produk('5')
+#5 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefSeller))
+#6 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp7\htdocs\apps\disperindag\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-17 01:36:06 --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;'(select seller_prod_produk_var_id from seller_produk where seller_prod_seller_id = &quot;5&quot;)'&quot;
+LINE 4:          where ref_produk_var_id not in '(select seller_prod...
+                                                ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp7\\htdoc...', 196, Array)
+#1 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #119, 'select ref_prod...')
+#2 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('select ref_prod...')
+#3 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('select ref_prod...')
+#4 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Datasource.php(72): CodeIgniter\Database\BaseConnection->query('select ref_prod...')
+#5 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(129): App\Libraries\SmartComponent\Datasource->run()
+#6 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(94): App\Libraries\SmartComponent\Grid->get_datasource()
+#7 C:\xampp7\htdocs\apps\disperindag\app\Controllers\Admin\RefSeller.php(246): App\Libraries\SmartComponent\Grid->output()
+#8 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefSeller->grid_pilih_produk('5')
+#9 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefSeller))
+#10 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp7\htdocs\apps\disperindag\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-09-17 01:36:06 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-17 01:36:25 --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;'select seller_prod_produk_var_id from seller_produk where seller_prod_seller_id = &quot;5'&quot;
+LINE 4:          where ref_produk_var_id not in 'select seller_prod_...
+                                                ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp7\\htdoc...', 196, Array)
+#1 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #119, 'select ref_prod...')
+#2 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('select ref_prod...')
+#3 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('select ref_prod...')
+#4 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Datasource.php(72): CodeIgniter\Database\BaseConnection->query('select ref_prod...')
+#5 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(129): App\Libraries\SmartComponent\Datasource->run()
+#6 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(94): App\Libraries\SmartComponent\Grid->get_datasource()
+#7 C:\xampp7\htdocs\apps\disperindag\app\Controllers\Admin\RefSeller.php(246): App\Libraries\SmartComponent\Grid->output()
+#8 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefSeller->grid_pilih_produk('5')
+#9 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefSeller))
+#10 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp7\htdocs\apps\disperindag\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-09-17 01:36:25 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-17 01:37:11 --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;'(select seller_prod_produk_var_id from seller_produk where seller_prod_seller_id = &quot;5&quot;)'&quot;
+LINE 4:          where ref_produk_var_id not in '(select seller_prod...
+                                                ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp7\\htdoc...', 196, Array)
+#1 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #119, 'select ref_prod...')
+#2 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('select ref_prod...')
+#3 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('select ref_prod...')
+#4 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Datasource.php(72): CodeIgniter\Database\BaseConnection->query('select ref_prod...')
+#5 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(129): App\Libraries\SmartComponent\Datasource->run()
+#6 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(94): App\Libraries\SmartComponent\Grid->get_datasource()
+#7 C:\xampp7\htdocs\apps\disperindag\app\Controllers\Admin\RefSeller.php(246): App\Libraries\SmartComponent\Grid->output()
+#8 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefSeller->grid_pilih_produk('5')
+#9 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefSeller))
+#10 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp7\htdocs\apps\disperindag\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-09-17 01:37:11 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-17 01:37:17 --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;'(select seller_prod_produk_var_id from seller_produk where seller_prod_seller_id = &quot;5&quot;)'&quot;
+LINE 4:          where ref_produk_var_id not in '(select seller_prod...
+                                                ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp7\\htdoc...', 196, Array)
+#1 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #119, 'select ref_prod...')
+#2 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('select ref_prod...')
+#3 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('select ref_prod...')
+#4 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Datasource.php(72): CodeIgniter\Database\BaseConnection->query('select ref_prod...')
+#5 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(129): App\Libraries\SmartComponent\Datasource->run()
+#6 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(94): App\Libraries\SmartComponent\Grid->get_datasource()
+#7 C:\xampp7\htdocs\apps\disperindag\app\Controllers\Admin\RefSeller.php(246): App\Libraries\SmartComponent\Grid->output()
+#8 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefSeller->grid_pilih_produk('5')
+#9 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefSeller))
+#10 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp7\htdocs\apps\disperindag\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-09-17 01:37:17 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-17 01:37:28 --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;'(select seller_prod_produk_var_id from seller_produk where seller_prod_seller_id = &quot;5&quot;)'&quot;
+LINE 4:          where ref_produk_var_id not in '(select seller_prod...
+                                                ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp7\\htdoc...', 196, Array)
+#1 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #119, 'select ref_prod...')
+#2 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('select ref_prod...')
+#3 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('select ref_prod...')
+#4 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Datasource.php(72): CodeIgniter\Database\BaseConnection->query('select ref_prod...')
+#5 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(129): App\Libraries\SmartComponent\Datasource->run()
+#6 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(94): App\Libraries\SmartComponent\Grid->get_datasource()
+#7 C:\xampp7\htdocs\apps\disperindag\app\Controllers\Admin\RefSeller.php(246): App\Libraries\SmartComponent\Grid->output()
+#8 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefSeller->grid_pilih_produk('5')
+#9 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefSeller))
+#10 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp7\htdocs\apps\disperindag\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-09-17 01:37:46 --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;'(select seller_prod_produk_var_id from seller_produk where seller_prod_seller_id = 5)'&quot;
+LINE 4:          where ref_produk_var_id not in '(select seller_prod...
+                                                ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp7\\htdoc...', 196, Array)
+#1 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #119, 'select ref_prod...')
+#2 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('select ref_prod...')
+#3 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('select ref_prod...')
+#4 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Datasource.php(72): CodeIgniter\Database\BaseConnection->query('select ref_prod...')
+#5 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(129): App\Libraries\SmartComponent\Datasource->run()
+#6 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(94): App\Libraries\SmartComponent\Grid->get_datasource()
+#7 C:\xampp7\htdocs\apps\disperindag\app\Controllers\Admin\RefSeller.php(246): App\Libraries\SmartComponent\Grid->output()
+#8 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefSeller->grid_pilih_produk('5')
+#9 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefSeller))
+#10 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp7\htdocs\apps\disperindag\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-09-17 01:37:49 --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;'(select seller_prod_produk_var_id from seller_produk where seller_prod_seller_id = 5)'&quot;
+LINE 4:          where ref_produk_var_id not in '(select seller_prod...
+                                                ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp7\\htdoc...', 196, Array)
+#1 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #119, 'select ref_prod...')
+#2 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('select ref_prod...')
+#3 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('select ref_prod...')
+#4 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Datasource.php(72): CodeIgniter\Database\BaseConnection->query('select ref_prod...')
+#5 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(129): App\Libraries\SmartComponent\Datasource->run()
+#6 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(94): App\Libraries\SmartComponent\Grid->get_datasource()
+#7 C:\xampp7\htdocs\apps\disperindag\app\Controllers\Admin\RefSeller.php(246): App\Libraries\SmartComponent\Grid->output()
+#8 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefSeller->grid_pilih_produk('5')
+#9 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefSeller))
+#10 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp7\htdocs\apps\disperindag\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-09-17 01:40:28 --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;'(select seller_prod_produk_var_id from seller_produk where seller_prod_seller_id = 5)'&quot;
+LINE 4:          where ref_produk_var_id not in '(select seller_prod...
+                                                ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp7\\htdoc...', 196, Array)
+#1 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #119, 'select ref_prod...')
+#2 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('select ref_prod...')
+#3 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('select ref_prod...')
+#4 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Datasource.php(74): CodeIgniter\Database\BaseConnection->query('select ref_prod...')
+#5 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(129): App\Libraries\SmartComponent\Datasource->run()
+#6 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(94): App\Libraries\SmartComponent\Grid->get_datasource()
+#7 C:\xampp7\htdocs\apps\disperindag\app\Controllers\Admin\RefSeller.php(246): App\Libraries\SmartComponent\Grid->output()
+#8 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefSeller->grid_pilih_produk('5')
+#9 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefSeller))
+#10 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp7\htdocs\apps\disperindag\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-09-17 01:40:30 --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;'(select seller_prod_produk_var_id from seller_produk where seller_prod_seller_id = 5)'&quot;
+LINE 4:          where ref_produk_var_id not in '(select seller_prod...
+                                                ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp7\\htdoc...', 196, Array)
+#1 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #119, 'select ref_prod...')
+#2 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('select ref_prod...')
+#3 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('select ref_prod...')
+#4 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Datasource.php(74): CodeIgniter\Database\BaseConnection->query('select ref_prod...')
+#5 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(129): App\Libraries\SmartComponent\Datasource->run()
+#6 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(94): App\Libraries\SmartComponent\Grid->get_datasource()
+#7 C:\xampp7\htdocs\apps\disperindag\app\Controllers\Admin\RefSeller.php(246): App\Libraries\SmartComponent\Grid->output()
+#8 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefSeller->grid_pilih_produk('5')
+#9 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefSeller))
+#10 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp7\htdocs\apps\disperindag\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-09-17 01:40:34 --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;'(select seller_prod_produk_var_id from seller_produk where seller_prod_seller_id = 5)'&quot;
+LINE 4:          where ref_produk_var_id not in '(select seller_prod...
+                                                ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp7\\htdoc...', 196, Array)
+#1 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #119, 'select ref_prod...')
+#2 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('select ref_prod...')
+#3 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('select ref_prod...')
+#4 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Datasource.php(74): CodeIgniter\Database\BaseConnection->query('select ref_prod...')
+#5 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(129): App\Libraries\SmartComponent\Datasource->run()
+#6 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(94): App\Libraries\SmartComponent\Grid->get_datasource()
+#7 C:\xampp7\htdocs\apps\disperindag\app\Controllers\Admin\RefSeller.php(246): App\Libraries\SmartComponent\Grid->output()
+#8 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefSeller->grid_pilih_produk('5')
+#9 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefSeller))
+#10 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp7\htdocs\apps\disperindag\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-09-17 01:40:34 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-17 01:40:58 --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;'(select seller_prod_produk_var_id from seller_produk where seller_prod_seller_id = 5)'&quot;
+LINE 4:          where ref_produk_var_id not in '(select seller_prod...
+                                                ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp7\\htdoc...', 196, Array)
+#1 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #119, 'select ref_prod...')
+#2 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('select ref_prod...')
+#3 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('select ref_prod...')
+#4 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Datasource.php(75): CodeIgniter\Database\BaseConnection->query('select ref_prod...')
+#5 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(129): App\Libraries\SmartComponent\Datasource->run()
+#6 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(94): App\Libraries\SmartComponent\Grid->get_datasource()
+#7 C:\xampp7\htdocs\apps\disperindag\app\Controllers\Admin\RefSeller.php(246): App\Libraries\SmartComponent\Grid->output()
+#8 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefSeller->grid_pilih_produk('5')
+#9 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefSeller))
+#10 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp7\htdocs\apps\disperindag\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-09-17 01:40:58 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-17 01:41:01 --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;'(select seller_prod_produk_var_id from seller_produk where seller_prod_seller_id = 5)'&quot;
+LINE 4:          where ref_produk_var_id not in '(select seller_prod...
+                                                ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp7\\htdoc...', 196, Array)
+#1 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #119, 'select ref_prod...')
+#2 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('select ref_prod...')
+#3 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('select ref_prod...')
+#4 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Datasource.php(75): CodeIgniter\Database\BaseConnection->query('select ref_prod...')
+#5 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(129): App\Libraries\SmartComponent\Datasource->run()
+#6 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(94): App\Libraries\SmartComponent\Grid->get_datasource()
+#7 C:\xampp7\htdocs\apps\disperindag\app\Controllers\Admin\RefSeller.php(246): App\Libraries\SmartComponent\Grid->output()
+#8 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefSeller->grid_pilih_produk('5')
+#9 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefSeller))
+#10 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp7\htdocs\apps\disperindag\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-09-17 01:41:01 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-17 01:41:03 --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;'(select seller_prod_produk_var_id from seller_produk where seller_prod_seller_id = 5)'&quot;
+LINE 4:          where ref_produk_var_id not in '(select seller_prod...
+                                                ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp7\\htdoc...', 196, Array)
+#1 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #119, 'select ref_prod...')
+#2 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('select ref_prod...')
+#3 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('select ref_prod...')
+#4 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Datasource.php(75): CodeIgniter\Database\BaseConnection->query('select ref_prod...')
+#5 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(129): App\Libraries\SmartComponent\Datasource->run()
+#6 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(94): App\Libraries\SmartComponent\Grid->get_datasource()
+#7 C:\xampp7\htdocs\apps\disperindag\app\Controllers\Admin\RefSeller.php(246): App\Libraries\SmartComponent\Grid->output()
+#8 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefSeller->grid_pilih_produk('5')
+#9 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefSeller))
+#10 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp7\htdocs\apps\disperindag\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-09-17 01:41:05 --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;'(select seller_prod_produk_var_id from seller_produk where seller_prod_seller_id = 5)'&quot;
+LINE 4:          where ref_produk_var_id not in '(select seller_prod...
+                                                ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp7\\htdoc...', 196, Array)
+#1 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #119, 'select ref_prod...')
+#2 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('select ref_prod...')
+#3 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('select ref_prod...')
+#4 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Datasource.php(75): CodeIgniter\Database\BaseConnection->query('select ref_prod...')
+#5 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(129): App\Libraries\SmartComponent\Datasource->run()
+#6 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(94): App\Libraries\SmartComponent\Grid->get_datasource()
+#7 C:\xampp7\htdocs\apps\disperindag\app\Controllers\Admin\RefSeller.php(246): App\Libraries\SmartComponent\Grid->output()
+#8 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefSeller->grid_pilih_produk('5')
+#9 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefSeller))
+#10 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp7\htdocs\apps\disperindag\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-09-17 01:49:33 --> syntax error, unexpected ';'
+#0 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp7\\htdoc...')
+#1 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\S...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\S...')
+#3 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(126): spl_autoload_call('App\\Libraries\\S...')
+#4 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(94): App\Libraries\SmartComponent\Grid->get_datasource()
+#5 C:\xampp7\htdocs\apps\disperindag\app\Controllers\Admin\RefPasar.php(56): App\Libraries\SmartComponent\Grid->output()
+#6 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefPasar->grid()
+#7 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefPasar))
+#8 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\apps\disperindag\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-09-17 01:49:55 --> syntax error, unexpected ';'
+#0 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp7\\htdoc...')
+#1 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\S...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\S...')
+#3 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(126): spl_autoload_call('App\\Libraries\\S...')
+#4 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(94): App\Libraries\SmartComponent\Grid->get_datasource()
+#5 C:\xampp7\htdocs\apps\disperindag\app\Controllers\Admin\RefSeller.php(248): App\Libraries\SmartComponent\Grid->output()
+#6 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefSeller->grid_pilih_produk('5')
+#7 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefSeller))
+#8 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\apps\disperindag\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-09-17 01:50:00 --> syntax error, unexpected ';'
+#0 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp7\\htdoc...')
+#1 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\S...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\S...')
+#3 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(126): spl_autoload_call('App\\Libraries\\S...')
+#4 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(94): App\Libraries\SmartComponent\Grid->get_datasource()
+#5 C:\xampp7\htdocs\apps\disperindag\app\Controllers\Admin\RefSeller.php(248): App\Libraries\SmartComponent\Grid->output()
+#6 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefSeller->grid_pilih_produk('5')
+#7 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefSeller))
+#8 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\apps\disperindag\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-09-17 01:50:16 --> syntax error, unexpected ';'
+#0 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp7\\htdoc...')
+#1 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\S...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\S...')
+#3 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(126): spl_autoload_call('App\\Libraries\\S...')
+#4 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(94): App\Libraries\SmartComponent\Grid->get_datasource()
+#5 C:\xampp7\htdocs\apps\disperindag\app\Controllers\Admin\RefSeller.php(248): App\Libraries\SmartComponent\Grid->output()
+#6 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefSeller->grid_pilih_produk('5')
+#7 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefSeller))
+#8 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\apps\disperindag\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-09-17 01:57:46 --> Undefined property: App\Libraries\SmartComponent\Grid::$response
+#0 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(144): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp7\\htdoc...', 144, Array)
+#1 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(94): App\Libraries\SmartComponent\Grid->get_datasource()
+#2 C:\xampp7\htdocs\apps\disperindag\app\Controllers\Admin\RefSeller.php(73): App\Libraries\SmartComponent\Grid->output()
+#3 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefSeller->grid()
+#4 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefSeller))
+#5 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp7\htdocs\apps\disperindag\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-17 01:57:46 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-17 01:57:53 --> Undefined property: App\Libraries\SmartComponent\Grid::$response
+#0 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(144): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp7\\htdoc...', 144, Array)
+#1 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(94): App\Libraries\SmartComponent\Grid->get_datasource()
+#2 C:\xampp7\htdocs\apps\disperindag\app\Controllers\Admin\RefSeller.php(73): App\Libraries\SmartComponent\Grid->output()
+#3 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefSeller->grid()
+#4 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefSeller))
+#5 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp7\htdocs\apps\disperindag\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-17 01:57:54 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-17 01:58:05 --> Undefined property: App\Libraries\SmartComponent\Grid::$response
+#0 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(144): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp7\\htdoc...', 144, Array)
+#1 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(94): App\Libraries\SmartComponent\Grid->get_datasource()
+#2 C:\xampp7\htdocs\apps\disperindag\app\Controllers\Admin\RefSeller.php(73): App\Libraries\SmartComponent\Grid->output()
+#3 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefSeller->grid()
+#4 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefSeller))
+#5 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp7\htdocs\apps\disperindag\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-17 01:59:09 --> Undefined property: App\Libraries\SmartComponent\Grid::$response
+#0 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(144): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp7\\htdoc...', 144, Array)
+#1 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(94): App\Libraries\SmartComponent\Grid->get_datasource()
+#2 C:\xampp7\htdocs\apps\disperindag\app\Controllers\Admin\RefPasar.php(61): App\Libraries\SmartComponent\Grid->output()
+#3 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefPasar->grid()
+#4 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefPasar))
+#5 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp7\htdocs\apps\disperindag\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-17 01:59:09 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-17 02:02:54 --> Cannot instantiate interface CodeIgniter\HTTP\ResponseInterface
+#0 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(95): App\Libraries\SmartComponent\Grid->get_datasource()
+#1 C:\xampp7\htdocs\apps\disperindag\app\Controllers\Admin\RefProduk.php(64): App\Libraries\SmartComponent\Grid->output()
+#2 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefProduk->grid()
+#3 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefProduk))
+#4 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7\htdocs\apps\disperindag\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-17 02:02:54 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-17 02:03:06 --> Cannot instantiate interface CodeIgniter\HTTP\ResponseInterface
+#0 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(95): App\Libraries\SmartComponent\Grid->get_datasource()
+#1 C:\xampp7\htdocs\apps\disperindag\app\Controllers\Admin\RefSeller.php(73): App\Libraries\SmartComponent\Grid->output()
+#2 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefSeller->grid()
+#3 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefSeller))
+#4 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7\htdocs\apps\disperindag\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-17 02:03:06 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-17 02:03:15 --> Cannot instantiate interface CodeIgniter\HTTP\ResponseInterface
+#0 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(95): App\Libraries\SmartComponent\Grid->get_datasource()
+#1 C:\xampp7\htdocs\apps\disperindag\app\Controllers\Admin\RefSeller.php(73): App\Libraries\SmartComponent\Grid->output()
+#2 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefSeller->grid()
+#3 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefSeller))
+#4 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7\htdocs\apps\disperindag\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-17 02:04:28 --> Too few arguments to function App\Libraries\SmartComponent\Grid::__construct(), 0 passed in C:\xampp7\htdocs\apps\disperindag\app\Controllers\Admin\RefProduk.php on line 47 and exactly 1 expected
+#0 C:\xampp7\htdocs\apps\disperindag\app\Controllers\Admin\RefProduk.php(47): App\Libraries\SmartComponent\Grid->__construct()
+#1 C:\xampp7\htdocs\apps\disperindag\app\Controllers\Admin\RefProduk.php(26): App\Controllers\Admin\RefProduk->grid()
+#2 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefProduk->index()
+#3 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefProduk))
+#4 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7\htdocs\apps\disperindag\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-17 02:04:31 --> Too few arguments to function App\Libraries\SmartComponent\Grid::__construct(), 0 passed in C:\xampp7\htdocs\apps\disperindag\app\Controllers\Admin\RefPasar.php on line 44 and exactly 1 expected
+#0 C:\xampp7\htdocs\apps\disperindag\app\Controllers\Admin\RefPasar.php(44): App\Libraries\SmartComponent\Grid->__construct()
+#1 C:\xampp7\htdocs\apps\disperindag\app\Controllers\Admin\RefPasar.php(26): App\Controllers\Admin\RefPasar->grid()
+#2 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefPasar->index()
+#3 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefPasar))
+#4 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7\htdocs\apps\disperindag\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-17 02:04:38 --> Too few arguments to function App\Libraries\SmartComponent\Grid::__construct(), 0 passed in C:\xampp7\htdocs\apps\disperindag\app\Controllers\Admin\RefPasar.php on line 44 and exactly 1 expected
+#0 C:\xampp7\htdocs\apps\disperindag\app\Controllers\Admin\RefPasar.php(44): App\Libraries\SmartComponent\Grid->__construct()
+#1 C:\xampp7\htdocs\apps\disperindag\app\Controllers\Admin\RefPasar.php(26): App\Controllers\Admin\RefPasar->grid()
+#2 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefPasar->index()
+#3 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefPasar))
+#4 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7\htdocs\apps\disperindag\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-17 02:04:43 --> Too few arguments to function App\Libraries\SmartComponent\Grid::__construct(), 0 passed in C:\xampp7\htdocs\apps\disperindag\app\Controllers\Admin\RefSeller.php on line 44 and exactly 1 expected
+#0 C:\xampp7\htdocs\apps\disperindag\app\Controllers\Admin\RefSeller.php(44): App\Libraries\SmartComponent\Grid->__construct()
+#1 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefSeller->grid()
+#2 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefSeller))
+#3 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\apps\disperindag\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-17 02:04:45 --> Too few arguments to function App\Libraries\SmartComponent\Grid::__construct(), 0 passed in C:\xampp7\htdocs\apps\disperindag\app\Controllers\Admin\RefSeller.php on line 44 and exactly 1 expected
+#0 C:\xampp7\htdocs\apps\disperindag\app\Controllers\Admin\RefSeller.php(44): App\Libraries\SmartComponent\Grid->__construct()
+#1 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefSeller->grid()
+#2 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefSeller))
+#3 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\apps\disperindag\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-17 02:05:30 --> Call to a member function setJSON() on null
+#0 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(99): App\Libraries\SmartComponent\Grid->get_datasource()
+#1 C:\xampp7\htdocs\apps\disperindag\app\Controllers\Admin\RefSeller.php(73): App\Libraries\SmartComponent\Grid->output()
+#2 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefSeller->grid()
+#3 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefSeller))
+#4 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7\htdocs\apps\disperindag\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-17 02:06:02 --> Too few arguments to function App\Libraries\SmartComponent\Grid::init(), 0 passed in C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php on line 21 and exactly 1 expected
+#0 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(21): App\Libraries\SmartComponent\Grid->init()
+#1 C:\xampp7\htdocs\apps\disperindag\app\Controllers\Admin\RefSeller.php(44): App\Libraries\SmartComponent\Grid->__construct()
+#2 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefSeller->grid()
+#3 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefSeller))
+#4 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7\htdocs\apps\disperindag\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-17 02:06:04 --> Too few arguments to function App\Libraries\SmartComponent\Grid::init(), 0 passed in C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php on line 21 and exactly 1 expected
+#0 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(21): App\Libraries\SmartComponent\Grid->init()
+#1 C:\xampp7\htdocs\apps\disperindag\app\Controllers\Admin\RefSeller.php(44): App\Libraries\SmartComponent\Grid->__construct()
+#2 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefSeller->grid()
+#3 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefSeller))
+#4 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7\htdocs\apps\disperindag\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-17 02:16:48 --> pg_query(): Query failed: ERROR:  function lower(integer) does not exist
+LINE 1: ...ref_pasar on ref_pasar_id = seller_pasar_id where lower(ref_...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp7\\htdoc...', 196, Array)
+#1 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #119, 'select '<a href...')
+#2 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('select '<a href...')
+#3 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('select '<a href...')
+#4 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Datasource.php(74): CodeIgniter\Database\BaseConnection->query('select '<a href...')
+#5 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(129): App\Libraries\SmartComponent\Datasource->run()
+#6 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(94): App\Libraries\SmartComponent\Grid->get_datasource()
+#7 C:\xampp7\htdocs\apps\disperindag\app\Controllers\Admin\Survey.php(94): App\Libraries\SmartComponent\Grid->output()
+#8 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Survey->gridSeller('2020-09-15')
+#9 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Survey))
+#10 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp7\htdocs\apps\disperindag\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-09-17 02:16:48 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-17 02:16:54 --> pg_query(): Query failed: ERROR:  function lower(integer) does not exist
+LINE 1: ...ref_pasar on ref_pasar_id = seller_pasar_id where lower(ref_...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp7\\htdoc...', 196, Array)
+#1 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #119, 'select '<a href...')
+#2 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('select '<a href...')
+#3 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('select '<a href...')
+#4 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Datasource.php(74): CodeIgniter\Database\BaseConnection->query('select '<a href...')
+#5 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(129): App\Libraries\SmartComponent\Datasource->run()
+#6 C:\xampp7\htdocs\apps\disperindag\app\Libraries\SmartComponent\Grid.php(94): App\Libraries\SmartComponent\Grid->get_datasource()
+#7 C:\xampp7\htdocs\apps\disperindag\app\Controllers\Admin\Survey.php(94): App\Libraries\SmartComponent\Grid->output()
+#8 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Survey->gridSeller('2020-09-15')
+#9 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Survey))
+#10 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp7\htdocs\apps\disperindag\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-09-17 02:16:54 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-17 02:26:37 --> Undefined variable: tanggal
+#0 C:\xampp7\htdocs\apps\disperindag\app\Controllers\Admin\Survey.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7\\htdoc...', 39, Array)
+#1 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Survey->form_tanggal()
+#2 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Survey))
+#3 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\apps\disperindag\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-17 02:28:41 --> Uncaught Error: Object of class CodeIgniter\HTTP\RedirectResponse could not be converted to string in C:\xampp7\htdocs\apps\disperindag\app\Controllers\Admin\RefSeller.php:209
+Stack trace:
+#0 C:\xampp7\htdocs\apps\disperindag\app\Controllers\Admin\RefSeller.php(132): App\Controllers\Admin\RefSeller->form()
+#1 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\RefSeller->add()
+#2 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RefSeller))
+#3 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\apps\disperindag\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-17 02:44:52 --> Undefined variable: user
+#0 C:\xampp7\htdocs\apps\disperindag\app\Views\template\default.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7\\htdoc...', 116, Array)
+#1 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp7\\htdoc...')
+#2 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\View\View.php(257): CodeIgniter\View\View->render('template/defaul...', Array, true)
+#3 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/admin', Array, true)
+#4 C:\xampp7\htdocs\apps\disperindag\app\Controllers\Admin\Home.php(30): view('admin/admin', Array)
+#5 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Home->index()
+#6 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+#7 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp7\htdocs\apps\disperindag\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-09-17 02:45:01 --> Undefined variable: user
+#0 C:\xampp7\htdocs\apps\disperindag\app\Views\template\default.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7\\htdoc...', 116, Array)
+#1 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp7\\htdoc...')
+#2 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\View\View.php(257): CodeIgniter\View\View->render('template/defaul...', Array, true)
+#3 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/admin', Array, true)
+#4 C:\xampp7\htdocs\apps\disperindag\app\Controllers\Admin\Home.php(30): view('admin/admin', Array)
+#5 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Home->index()
+#6 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+#7 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp7\htdocs\apps\disperindag\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-09-17 21:11:07 --> Undefined variable: totalTime
+#0 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Debug\Toolbar\Views\toolbar.tpl.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7\\htdoc...', 56, Array)
+#1 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Debug\Toolbar.php(498): include('C:\\xampp7\\htdoc...')
+#2 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Debug\Toolbar.php(455): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\xampp7\htdocs\apps\disperindag\app\Config\Events.php(50): CodeIgniter\Debug\Toolbar->respond()
+#4 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\Events\Events.php(188): call_user_func(Object(Closure))
+#6 C:\xampp7\htdocs\apps\disperindag\vendor\codeigniter4\framework\system\CodeIgniter.php(293): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\xampp7\htdocs\apps\disperindag\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-17 21:14:07 --> Declaration of App\Filters\LoginFilter::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-17 21:14:40 --> Declaration of App\Filters\LoginFilter::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-17 21:14:42 --> Declaration of App\Filters\LoginFilter::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-17 21:16:44 --> Declaration of App\Filters\LoginFilter::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-17 21:16:46 --> Declaration of App\Filters\LoginFilter::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

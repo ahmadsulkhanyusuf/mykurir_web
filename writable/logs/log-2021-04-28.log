@@ -1,0 +1,405 @@
+CRITICAL - 2021-04-28 02:11:54 --> Undefined variable: action
+#0 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 77, Array)
+#1 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(13): App\Controllers\Admin\Barang->grid()
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->index()
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-04-28 02:18:29 --> Undefined variable: kecamatan
+#0 D:\xampp7\htdocs\dkurir\app\Views\admin\matrix\sf_add.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 9, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/matrix/sf...', Array, true)
+#3 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Form.php(310): view('admin/matrix/sf...', Array)
+#4 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\MatHarga.php(123): App\Libraries\SmartComponent\Form->output()
+#5 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\MatHarga.php(92): App\Controllers\Admin\MatHarga->form('8')
+#6 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\MatHarga->add('8')
+#7 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MatHarga))
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-04-28 02:21:24 --> Unable to connect to the database.
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\MatHarga.php(109): CodeIgniter\Database\BaseConnection->query('select * from k...')
+#2 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\MatHarga.php(92): App\Controllers\Admin\MatHarga->form('8')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\MatHarga->add('8')
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MatHarga))
+#5 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-28 02:21:27 --> Unable to connect to the database.
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\MatHarga.php(109): CodeIgniter\Database\BaseConnection->query('select * from k...')
+#2 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\MatHarga.php(92): App\Controllers\Admin\MatHarga->form('8')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\MatHarga->add('8')
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MatHarga))
+#5 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-28 02:21:38 --> Unable to connect to the database.
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Form.php(181): CodeIgniter\Database\BaseConnection->query('select id as id...')
+#2 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(125): App\Libraries\SmartComponent\Form->add('bar_cust_id', 'Customer', 'select', false, '', 'style="width:10...', Array)
+#3 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(101): App\Controllers\Admin\Barang->form()
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->add()
+#5 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#6 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-28 02:22:03 --> Unable to connect to the database.
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\MatHarga.php(109): CodeIgniter\Database\BaseConnection->query('select * from k...')
+#2 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\MatHarga.php(92): App\Controllers\Admin\MatHarga->form('8')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\MatHarga->add('8')
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MatHarga))
+#5 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-28 02:22:04 --> Unable to connect to the database.
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Form.php(181): CodeIgniter\Database\BaseConnection->query('select id as id...')
+#2 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(125): App\Libraries\SmartComponent\Form->add('bar_cust_id', 'Customer', 'select', false, '', 'style="width:10...', Array)
+#3 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(101): App\Controllers\Admin\Barang->form()
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->add()
+#5 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#6 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-28 02:22:22 --> Unable to connect to the database.
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Form.php(181): CodeIgniter\Database\BaseConnection->query('select id as id...')
+#2 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(125): App\Libraries\SmartComponent\Form->add('bar_cust_id', 'Customer', 'select', false, '', 'style="width:10...', Array)
+#3 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(101): App\Controllers\Admin\Barang->form()
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->add()
+#5 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#6 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-28 02:22:26 --> Unable to connect to the database.
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Datasource.php(75): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#2 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(173): App\Libraries\SmartComponent\Datasource->run()
+#3 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(128): App\Libraries\SmartComponent\Grid->get_datasource()
+#4 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(84): App\Libraries\SmartComponent\Grid->output()
+#5 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->grid()
+#6 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#7 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-28 02:22:30 --> Unable to connect to the database.
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\MatHarga.php(109): CodeIgniter\Database\BaseConnection->query('select * from k...')
+#2 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\MatHarga.php(92): App\Controllers\Admin\MatHarga->form('8')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\MatHarga->add('8')
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MatHarga))
+#5 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-28 02:22:30 --> Unable to connect to the database.
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Datasource.php(75): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#2 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(173): App\Libraries\SmartComponent\Datasource->run()
+#3 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(128): App\Libraries\SmartComponent\Grid->get_datasource()
+#4 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(84): App\Libraries\SmartComponent\Grid->output()
+#5 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->grid()
+#6 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#7 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-28 02:22:33 --> Unable to connect to the database.
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Datasource.php(75): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#2 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(173): App\Libraries\SmartComponent\Datasource->run()
+#3 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Grid.php(128): App\Libraries\SmartComponent\Grid->get_datasource()
+#4 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(84): App\Libraries\SmartComponent\Grid->output()
+#5 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->grid()
+#6 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#7 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-28 02:22:36 --> Unable to connect to the database.
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\MatHarga.php(109): CodeIgniter\Database\BaseConnection->query('select * from k...')
+#2 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\MatHarga.php(92): App\Controllers\Admin\MatHarga->form('8')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\MatHarga->add('8')
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MatHarga))
+#5 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-28 02:22:38 --> Unable to connect to the database.
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Form.php(181): CodeIgniter\Database\BaseConnection->query('select id as id...')
+#2 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(125): App\Libraries\SmartComponent\Form->add('bar_cust_id', 'Customer', 'select', false, '', 'style="width:10...', Array)
+#3 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(101): App\Controllers\Admin\Barang->form()
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->add()
+#5 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#6 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-28 02:22:43 --> Unable to connect to the database.
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\MatHarga.php(109): CodeIgniter\Database\BaseConnection->query('select * from k...')
+#2 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\MatHarga.php(92): App\Controllers\Admin\MatHarga->form('8')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\MatHarga->add('8')
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MatHarga))
+#5 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-28 02:23:34 --> Unable to connect to the database.
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Form.php(181): CodeIgniter\Database\BaseConnection->query('select id as id...')
+#2 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(125): App\Libraries\SmartComponent\Form->add('bar_cust_id', 'Customer', 'select', false, '', 'style="width:10...', Array)
+#3 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(101): App\Controllers\Admin\Barang->form()
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->add()
+#5 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#6 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-28 02:24:01 --> Unable to connect to the database.
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\MatHarga.php(109): CodeIgniter\Database\BaseConnection->query('select * from k...')
+#2 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\MatHarga.php(92): App\Controllers\Admin\MatHarga->form('8')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\MatHarga->add('8')
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MatHarga))
+#5 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-28 02:25:05 --> Unable to connect to the database.
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\MatHarga.php(109): CodeIgniter\Database\BaseConnection->query('select * from k...')
+#2 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\MatHarga.php(92): App\Controllers\Admin\MatHarga->form('8')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\MatHarga->add('8')
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MatHarga))
+#5 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-28 02:27:24 --> Unable to connect to the database.
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\MatHarga.php(109): CodeIgniter\Database\BaseConnection->query('select * from k...')
+#2 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\MatHarga.php(92): App\Controllers\Admin\MatHarga->form('8')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\MatHarga->add('8')
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MatHarga))
+#5 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-28 02:28:07 --> Unable to connect to the database.
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\MatHarga.php(109): CodeIgniter\Database\BaseConnection->query('select * from k...')
+#2 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\MatHarga.php(92): App\Controllers\Admin\MatHarga->form('8')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\MatHarga->add('8')
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MatHarga))
+#5 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-28 02:28:10 --> Unable to connect to the database.
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\MatHarga.php(109): CodeIgniter\Database\BaseConnection->query('select * from k...')
+#2 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\MatHarga.php(92): App\Controllers\Admin\MatHarga->form('8')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\MatHarga->add('8')
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MatHarga))
+#5 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-28 02:31:04 --> pg_query(): Query failed: ERROR:  column &quot;kec_kota_id&quot; does not exist
+LINE 1: ...atan.id = cust_kec_id left join kota on kota.id = kec_kota_i...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\xampp7\\htdoc...', 196, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #180, 'select customer...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('select customer...')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('select customer...')
+#4 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Form.php(181): CodeIgniter\Database\BaseConnection->query('select customer...')
+#5 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(125): App\Libraries\SmartComponent\Form->add('bar_cust_id', 'Customer', 'select', false, '', 'style="width:10...', Array)
+#6 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(101): App\Controllers\Admin\Barang->form()
+#7 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->add()
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#9 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-04-28 02:31:05 --> pg_query(): Query failed: ERROR:  column &quot;kec_kota_id&quot; does not exist
+LINE 1: ...atan.id = cust_kec_id left join kota on kota.id = kec_kota_i...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\xampp7\\htdoc...', 196, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #180, 'select customer...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('select customer...')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('select customer...')
+#4 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Form.php(181): CodeIgniter\Database\BaseConnection->query('select customer...')
+#5 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(125): App\Libraries\SmartComponent\Form->add('bar_cust_id', 'Customer', 'select', false, '', 'style="width:10...', Array)
+#6 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(101): App\Controllers\Admin\Barang->form()
+#7 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->add()
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#9 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-04-28 02:31:06 --> pg_query(): Query failed: ERROR:  column &quot;kec_kota_id&quot; does not exist
+LINE 1: ...atan.id = cust_kec_id left join kota on kota.id = kec_kota_i...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\xampp7\\htdoc...', 196, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #180, 'select customer...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('select customer...')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('select customer...')
+#4 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Form.php(181): CodeIgniter\Database\BaseConnection->query('select customer...')
+#5 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(125): App\Libraries\SmartComponent\Form->add('bar_cust_id', 'Customer', 'select', false, '', 'style="width:10...', Array)
+#6 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(101): App\Controllers\Admin\Barang->form()
+#7 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->add()
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#9 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-04-28 02:38:24 --> Unable to connect to the database.
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Form.php(181): CodeIgniter\Database\BaseConnection->query('select customer...')
+#2 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(124): App\Libraries\SmartComponent\Form->add('bar_cust_id', 'Customer', 'select', false, '', 'style="width:10...', Array)
+#3 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(101): App\Controllers\Admin\Barang->form()
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->add()
+#5 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#6 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-28 02:38:26 --> Unable to connect to the database.
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Form.php(181): CodeIgniter\Database\BaseConnection->query('select customer...')
+#2 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(124): App\Libraries\SmartComponent\Form->add('bar_cust_id', 'Customer', 'select', false, '', 'style="width:10...', Array)
+#3 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(101): App\Controllers\Admin\Barang->form()
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->add()
+#5 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#6 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-28 02:38:32 --> Unable to connect to the database.
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Form.php(181): CodeIgniter\Database\BaseConnection->query('select customer...')
+#2 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(124): App\Libraries\SmartComponent\Form->add('bar_cust_id', 'Customer', 'select', false, '', 'style="width:10...', Array)
+#3 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(101): App\Controllers\Admin\Barang->form()
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->add()
+#5 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#6 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-28 02:38:35 --> Unable to connect to the database.
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Form.php(181): CodeIgniter\Database\BaseConnection->query('select customer...')
+#2 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(124): App\Libraries\SmartComponent\Form->add('bar_cust_id', 'Customer', 'select', false, '', 'style="width:10...', Array)
+#3 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(101): App\Controllers\Admin\Barang->form()
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->add()
+#5 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#6 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-28 02:38:40 --> Unable to connect to the database.
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\MatHarga.php(109): CodeIgniter\Database\BaseConnection->query('select * from k...')
+#2 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\MatHarga.php(92): App\Controllers\Admin\MatHarga->form('8')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\MatHarga->add('8')
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MatHarga))
+#5 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-28 02:39:29 --> Unable to connect to the database.
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Form.php(181): CodeIgniter\Database\BaseConnection->query('select customer...')
+#2 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(124): App\Libraries\SmartComponent\Form->add('bar_cust_id', 'Customer', 'select', false, '', 'style="width:10...', Array)
+#3 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(101): App\Controllers\Admin\Barang->form()
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->add()
+#5 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#6 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-28 02:39:32 --> Unable to connect to the database.
+#0 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\MatHarga.php(109): CodeIgniter\Database\BaseConnection->query('select * from k...')
+#2 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\MatHarga.php(92): App\Controllers\Admin\MatHarga->form('8')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\MatHarga->add('8')
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MatHarga))
+#5 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-28 02:40:37 --> pg_query(): Query failed: ERROR:  syntax error at end of input
+LINE 1: select * from ongkir where 
+                                   ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\xampp7\\htdoc...', 196, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(196): pg_query(Resource id #179, 'select * from o...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('select * from o...')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('select * from o...')
+#4 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\MatHarga.php(116): CodeIgniter\Database\BaseConnection->query('select * from o...')
+#5 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\MatHarga.php(92): App\Controllers\Admin\MatHarga->form('8')
+#6 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\MatHarga->add('8')
+#7 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MatHarga))
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-04-28 02:44:25 --> Undefined index: kecamatan
+#0 D:\xampp7\htdocs\dkurir\app\Views\admin\matrix\sf_add.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 9, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/matrix/sf...', Array, true)
+#3 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Form.php(310): view('admin/matrix/sf...', Array)
+#4 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(154): App\Libraries\SmartComponent\Form->output()
+#5 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(101): App\Controllers\Admin\Barang->form()
+#6 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->add()
+#7 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-04-28 02:45:11 --> Undefined index: kecamatan
+#0 D:\xampp7\htdocs\dkurir\app\Views\admin\matrix\sf_add.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 9, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/matrix/sf...', Array, true)
+#3 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Form.php(310): view('admin/matrix/sf...', Array)
+#4 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(154): App\Libraries\SmartComponent\Form->output()
+#5 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(101): App\Controllers\Admin\Barang->form()
+#6 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->add()
+#7 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-04-28 02:46:00 --> Illegal string offset 'id'
+#0 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\MatHarga.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'D:\\xampp7\\htdoc...', 128, Array)
+#1 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\MatHarga.php(92): App\Controllers\Admin\MatHarga->form('6')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\MatHarga->add('6')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MatHarga))
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-04-28 02:46:54 --> Undefined index: kecamatan
+#0 D:\xampp7\htdocs\dkurir\app\Views\admin\barang\sf_add.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 9, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/barang/sf...', Array, true)
+#3 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Form.php(310): view('admin/barang/sf...', Array)
+#4 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(154): App\Libraries\SmartComponent\Form->output()
+#5 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(101): App\Controllers\Admin\Barang->form()
+#6 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->add()
+#7 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-04-28 02:48:55 --> Undefined index: peng_tanggal
+#0 D:\xampp7\htdocs\dkurir\app\Views\admin\barang\sf_add.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 7, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/barang/sf...', Array, true)
+#3 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Form.php(310): view('admin/barang/sf...', Array)
+#4 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(154): App\Libraries\SmartComponent\Form->output()
+#5 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(101): App\Controllers\Admin\Barang->form()
+#6 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->add()
+#7 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-04-28 02:49:33 --> Undefined index: peng_tanggal
+#0 D:\xampp7\htdocs\dkurir\app\Views\admin\barang\sf_add.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 7, Array)
+#1 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/barang/sf...', Array, true)
+#3 D:\xampp7\htdocs\dkurir\app\Libraries\SmartComponent\Form.php(310): view('admin/barang/sf...', Array)
+#4 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(154): App\Libraries\SmartComponent\Form->output()
+#5 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\Barang.php(101): App\Controllers\Admin\Barang->form()
+#6 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Barang->add()
+#7 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#8 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-04-28 02:53:09 --> Trying to access array offset on value of type null
+#0 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\MatHarga.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\xampp7\\htdoc...', 118, Array)
+#1 D:\xampp7\htdocs\dkurir\app\Controllers\Admin\MatHarga.php(105): App\Controllers\Admin\MatHarga->form('29')
+#2 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\MatHarga->edit('29')
+#3 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MatHarga))
+#4 D:\xampp7\htdocs\dkurir\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dkurir\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

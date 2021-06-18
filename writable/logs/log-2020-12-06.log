@@ -1,0 +1,50 @@
+CRITICAL - 2020-12-06 20:42:11 --> pg_query(): Query failed: ERROR:  invalid input syntax for integer: &quot;images&quot;
+LINE 4: WHERE &quot;member_id&quot; = 'images'
+                            ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/var/www/html/m...', 196, Array)
+#1 /var/www/html/modal_bergulir/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php(196): pg_query(Resource id #12, 'SELECT *\nFROM "...')
+#2 /var/www/html/modal_bergulir/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 /var/www/html/modal_bergulir/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 /var/www/html/modal_bergulir/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2019): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 /var/www/html/modal_bergulir/app/Controllers/Login.php(30): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#6 /var/www/html/modal_bergulir/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Login->vRegister('images', 'favicon', 'favicon-16x16.p...')
+#7 /var/www/html/modal_bergulir/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 /var/www/html/modal_bergulir/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/modal_bergulir/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-06 20:42:11 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /var/www/html/modal_bergulir/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /var/www/html/modal_bergulir/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /var/www/html/modal_bergulir/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /var/www/html/modal_bergulir/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /var/www/html/modal_bergulir/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-06 20:46:33 --> pg_query(): Query failed: ERROR:  invalid input syntax for integer: &quot;images&quot;
+LINE 4: WHERE &quot;member_id&quot; = 'images'
+                            ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', '/var/www/html/m...', 196, Array)
+#1 /var/www/html/modal_bergulir/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php(196): pg_query(Resource id #12, 'SELECT *\nFROM "...')
+#2 /var/www/html/modal_bergulir/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 /var/www/html/modal_bergulir/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 /var/www/html/modal_bergulir/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2019): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 /var/www/html/modal_bergulir/app/Controllers/Login.php(30): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#6 /var/www/html/modal_bergulir/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Login->vRegister('images', 'favicon', 'favicon-16x16.p...')
+#7 /var/www/html/modal_bergulir/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 /var/www/html/modal_bergulir/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/modal_bergulir/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-06 20:46:33 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /var/www/html/modal_bergulir/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /var/www/html/modal_bergulir/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /var/www/html/modal_bergulir/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /var/www/html/modal_bergulir/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /var/www/html/modal_bergulir/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
